@@ -28,8 +28,8 @@
 
 	/* Correction:margin/padding reset caused too small select boxes. */
 	option {
-		padding-left:0.4em;
-	} /* LTR */
+		padding-right:0.4em;
+	} /* RTL */
 
 	select {
 		padding:1px;
@@ -44,13 +44,13 @@
 		font-size:100.01%; /* Fix for rounding errors when scaling font sizes in older versions of Opera browser */
 		background:#fff;
 		color:#000;
-		text-align:left; /* LTR */
+		text-align:right; /* RTL */
 		line-height: 1;
 	}
 
 	/* avoid visible outlines on DIV containers in Webkit browsers */
 	div {
-		outline:0 none;
+		/* outline:1px dashed red; */
 	}
 
 	/* HTML 5 - adjusting visual formatting model to block level */
