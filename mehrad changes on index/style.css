@@ -139,11 +139,18 @@ aside.left-nav li h1{
 	height:60px;
 	width:240px;
 	text-indent : -10000000px;
-	color:red;
-
-
+	color:red;	
 	
+}
+aside.left-nav li ul{
+	display: block;
+	height: 0px;
+	-webkit-transition:all 600ms;	
 	
+}
+aside.left-nav li:hover ul{
+	
+	height: 200px;
 }
 
 
