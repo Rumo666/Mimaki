@@ -45,6 +45,7 @@
 	/*background-image: url('images/slider-bg.png');
 	background-repeat: repeat-x;
 	background-position: top;*/
+	margin-bottom: 10px;
 }
 
 .main-content-container{
@@ -120,3 +121,47 @@
 	min-height: 105px;
 	direction: inherit;
 }
+aside.left-nav{
+	min-height:200px;
+	width: 240px;
+}
+aside.left-nav ul{
+	list-style-type: none;
+}
+aside.left-nav li{
+	background-image: url('images/lh3_modeling.jpg');
+	background-repeat:no-repeat;
+	display: block;
+
+}
+aside.left-nav li h1{
+	
+	height:60px;
+	width:240px;
+	text-indent : -10000000px;
+	color:red;
+
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
