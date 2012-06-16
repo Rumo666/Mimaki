@@ -127,32 +127,39 @@ aside.left-nav{
 }
 aside.left-nav ul{
 	list-style-type: none;
+	background-color: rgb(210,210,210);
 }
 aside.left-nav li{
-	background-image: url('images/lh3_modeling.jpg');
+	
 	background-repeat:no-repeat;
 	display: block;
 
+
 }
 aside.left-nav li h1{
-	
+	background-image: url('images/lh3_modeling.jpg');
 	height:60px;
 	width:240px;
 	text-indent : -10000000px;
-	color:red;	
+	color:transparent;	
 	
 }
 aside.left-nav li ul{
-	display: block;
+	width:230px;
+	background-color: white;
+	overflow: hidden;
 	height: 0px;
+	margin: 0 auto;
+
 	-webkit-transition:all 600ms;	
 	
 }
 aside.left-nav li:hover ul{
-	
 	height: 200px;
 }
-
+aside.left-nav li li{
+	padding:10px 0;
+}
 
 
 
