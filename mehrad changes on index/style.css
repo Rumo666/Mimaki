@@ -1,5 +1,5 @@
 *{
-	outline: 1px dashed red;
+	outline: 0px dashed red;
 }
 
 .clear{
@@ -127,7 +127,7 @@ aside.left-nav{
 }
 aside.left-nav ul{
 	list-style-type: none;
-	background-color: rgb(210,210,210);
+	background-color: rgb(187,187,187);
 }
 aside.left-nav li{
 	
@@ -137,11 +137,11 @@ aside.left-nav li{
 
 }
 aside.left-nav li h1{
-	background-image: url('images/lh3_modeling.jpg');
+	
 	height:60px;
 	width:240px;
-	text-indent : -10000000px;
-	color:transparent;	
+	
+	color:red;	
 	
 }
 aside.left-nav li ul{
@@ -160,12 +160,21 @@ aside.left-nav li:hover ul{
 aside.left-nav li li{
 	padding:10px 0;
 }
+h1.inkjet{
+	background-image: url('images/lh3_printer.jpg');
+}
 
+h1.cutting{
+	background-image: url('images/lh3_cuting.jpg');
+}
 
+h1.modeling{
+	background-image: url('images/lh3_modeling.jpg');
+}
+h1.software{
+	background-image: url('images/lh3_software.jpg');
 
-
-
-
+}
 
 
 
