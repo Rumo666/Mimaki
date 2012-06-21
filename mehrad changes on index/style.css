@@ -1,5 +1,5 @@
 *{
-	outline: 0px dashed red;
+	outline: 1px dashed red;
 }
 
 .clear{
@@ -177,13 +177,50 @@ h1.software{
 }
 
 
+/*************** content *****************/
 
 
+section.content{
+	margin-left: 270px;
+}
+section.impinfo{
+	min-height: 60px;
+	margin-bottom: 30px;
+}
+nav.pickup{
 
+}
+nav.pickup ul{
+	list-style-type: none;
+}
 
+nav.pickup ul li{
+	float:left;
 
+}
+nav.pickup ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-indent: -99999px;
+	padding:17px 85px;
 
-
+}
+nav.pickup ul li a:hover{
+	background-position: 0 -34px;
+}
+nav.pickup a.pickup{
+	background-image: url('images/tab_picup.jpg');
+}
+nav.pickup a.product{
+	background-image: url('images/tab_product.jpg');
+}
+nav.pickup a.news{
+	background-image: url('images/tab_news.jpg');
+}
+nav.pickup a.event{
+	background-image: url('images/tab_event.jpg');
+}
 
 
 
