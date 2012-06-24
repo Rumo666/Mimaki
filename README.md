@@ -16,10 +16,12 @@ This website project, design for **Peyvand e Badie** company , which Sales and S
 * [HTML5]
 * [CSS3]
 * [1Styles]
+* [JavaSCRIPT]
+* [jQuery]
 
 
-###The Team
-* [**Aidin toussi**](http://github.com/Aidin-toussi) Project Manager / Developer
+###The Developer Team
+* [**Aidin toussi**](http://github.com/Aidin-toussi) Project Manager / Graphic Designer / Developer
 * [**Mehrad Kavian**](https://github.com/MKDesign) Designer / Developer
 
 
