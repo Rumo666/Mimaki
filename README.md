@@ -1,20 +1,31 @@
-Mimaki
-======
+##Our Website : Mimaki
+This website project, design for **Peyvand e Badie** company , which Sales and Support Larg Format and Special Printers.
 
-ABOUT PROJECT :
 
-This website project, design for "Peyvand e Badie" company , which Sales and Support Larg Format and Special Printers.
+###Contributing
 
-OUR TEAM :
+* Check our projec's website and report any bugs or ideas in [issues](https://github.com/Goldentech/Mimaki/issues)
 
-Project Manager : Aidin Toussi (Aidin2C)
+* Check our project's source with
+```
+    git clone https://github.com/Goldentech/Mimaki.git
+```
 
-Code Advisor : Aidin Toussi (Aidin2C), Mehrad Kavian (MKDesign)
 
-CSS & Animation : Mehrad Kavian (MKDesign)
+###Buliding Technologies
+* [HTML5]
+* [CSS3]
+* [1Styles]
 
-Graphic Designer : Aidin Toussi (Aidin2C)
 
-PROPOSED DESIGN :
+###The Team
+* [**Aidin toussi**](http://github.com/Aidin-toussi) Project Manager / Developer
+* [**Mehrad Kavian**](https://github.com/MKDesign) Designer / Developer
 
-http://www.Mimaki.co.jp
+
+### All rights reserved ###
+Please note that GoldenTECH.org is a curated site and that we reserve the right to refuse any listing for any reason.
+
+The [GoldenTECH.org](http://GoldenTECH.org) code and website is released under a MIT License.
+
+Produced by GoldenTECH Developers team, (2012)
