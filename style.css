@@ -50,7 +50,7 @@
 .main-content-container{
 	margin: 0 auto;
 	direction: inherit;
-	min-height: 422px;
+	min-height: 593px;
 }
 
 .sidebar{
@@ -63,12 +63,6 @@
 .content{
 	margin-right:240px;
 	min-height:422px;
-}
-
-.box-container{
-	margin: 0 auto;
-	direction: inherit;
-	min-height: 170px;
 }
 
 .navigation-container{
@@ -132,15 +126,27 @@ nav.menu ul li a{
 .main-content{
 	width: 950px;
 	margin: 0 auto;
-	min-height: 422px;
+	min-height: 593px;
 	direction: inherit;
 }
 
-.boxes{
-	width: 950px;
-	margin: 0 auto;
-	min-height: 170px;
+.content-body{
+	min-height:420px;
+	padding: 15px 25px 15px 0px;
+}
+
+.content-boxes{
+	padding: 0px 15px 40px 0px;
 	direction: inherit;
+	min-height: 103px;
+	direction: inherit;
+}
+
+.box{
+	float: right;
+	width: 221px;
+	min-height: 100px;
+	padding-right: 10px;
 }
 
 .navigation{
