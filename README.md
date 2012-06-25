@@ -12,7 +12,7 @@ This website project, design for **Peyvand e Badie** company , which Sales and S
 ```
 
 
-###Buliding Technologies
+###Building Technologies
 * [HTML5]
 * [CSS3]
 * [1Styles]
@@ -25,10 +25,11 @@ This website project, design for **Peyvand e Badie** company , which Sales and S
 * [**Aidin toussi**](http://github.com/Aidin-toussi) Project Manager / Graphic Designer / Developer
 * [**Mehrad Kavian**](https://github.com/MKDesign) Designer / Developer
 
-###Domain names Registered :###
+###Domain Names Registered :###
+* ?
 
-?
-
+###Our Desired Design :###
+* http://www.mimaki.co.jp
 
 ### All rights reserved ###
 Please note that GoldenTECH.org is a curated site and that we reserve the right to refuse any listing for any reason.
