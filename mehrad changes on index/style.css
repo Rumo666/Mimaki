@@ -1,5 +1,5 @@
 *{
-	outline: 1px dashed red;
+	outline: 0px dashed red;
 }
 
 .clear{
@@ -225,12 +225,28 @@ nav.pickup a.event{
 
 section.container-iframe{
 	width:680px;
+	background-color: #bcbcbc;
+	min-height:600px;
+}
+section.container-iframe ul{
+	width:660px;
+	margin: 0 auto;
+	
+	}
+section.container-iframe li{
+	min-height:100px;
+	border-top: 1px dotted #898989;
 }
 
+section.container-iframe li a{
+	display: block;
+	float: left;
 
+}
 
-
-
+section.container-iframe li p{
+	margin-left: 60px;
+}
 
 
 
