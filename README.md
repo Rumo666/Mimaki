@@ -18,11 +18,17 @@ This website project, design for **Peyvand e Badie** company , which Sales and S
 * [1Styles]
 * [JavaSCRIPT]
 * [jQuery]
+* [LightBOX]
 
 
-###The Developer Team
+###The Developers Team
 * [**Aidin toussi**](http://github.com/Aidin-toussi) Project Manager / Graphic Designer / Developer
 * [**Mehrad Kavian**](https://github.com/MKDesign) Designer / Developer
+
+###Domain names Registered :###
+
+http://www.GoldenTECH.org
+http://www.GoldenTECH.ir
 
 
 ### All rights reserved ###
