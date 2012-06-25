@@ -27,8 +27,7 @@ This website project, design for **Peyvand e Badie** company , which Sales and S
 
 ###Domain names Registered :###
 
-http://www.GoldenTECH.org
-http://www.GoldenTECH.ir
+?
 
 
 ### All rights reserved ###
