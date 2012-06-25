@@ -247,7 +247,9 @@ section.container-iframe li a{
 section.container-iframe li p{
 	margin-left: 60px;
 }
-
+section.container-iframe li span{
+	display: block;
+}
 
 
 
