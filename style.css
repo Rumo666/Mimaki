@@ -50,7 +50,7 @@
 .main-content-container{
 	margin: 0 auto;
 	direction: inherit;
-	min-height: 593px;
+	min-height: 400px;
 }
 
 .sidebar-container{
@@ -61,7 +61,7 @@
 }
 
 aside.sidebar-container{
-	direction: rtl;
+	direction: inherit;
 	min-height:200px;
 	width: 240px;
 }
@@ -131,7 +131,7 @@ aside.sidebar-container section.software{
 
 .content{
 	margin-right:240px;
-	min-height:422px;
+	min-height:400px;
 }
 
 .navigation-container{
@@ -176,7 +176,7 @@ nav.menu ul li{
 }
 
 nav.menu ul li:hover{
-	background-image: url('images/menu-bg-hover1.png');
+	background-image: url('images/menu-bg-hover.png');
 	background-repeat: repeat-x;
 	background-position: top;
 }
@@ -206,12 +206,13 @@ nav.menu ul li:hover a{
 .main-content{
 	width: 950px;
 	margin: 0 auto;
-	min-height: 593px;
+	padding-top: 20px;
+	min-height: 400px;
 	direction: inherit;
 }
 
 .content-body{
-	min-height:420px;
+	min-height:400px;
 	padding: 15px 25px 15px 0px;
 }
 
@@ -227,6 +228,41 @@ nav.menu ul li:hover a{
 	width: 221px;
 	min-height: 100px;
 	padding-right: 10px;
+	background-image: url('images/box-bg.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+div.box section.sign-graphic{
+	width: 221px;
+	min-height: 103px;
+	background-image: url('images/box1.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+div.box section.industrial-products{
+	width: 221px;
+	min-height: 103px;
+	background-image: url('images/box2.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+div.box section.textile-apparel{
+	width: 221px;
+	min-height: 103px;
+	background-image: url('images/box3.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+div.box ul{
+	margin: 0 auto;
+}
+
+div.box ul li{
+	padding: 10px 0;
 }
 
 .navigation{
