@@ -53,68 +53,80 @@
 	min-height: 593px;
 }
 
-.sidebar{
+.sidebar-container{
 	float:right;
 	direction: inherit;
 	width:240px;
 	min-height:422px;
 }
 
-aside.sidebar{
+aside.sidebar-container{
 	direction: rtl;
 	min-height:200px;
 	width: 240px;
 }
 
-aside.sidebar ul{
+aside.sidebar-container ul{
 	list-style-type: none;
 	background-color: rgb(187,187,187);
+	background-image:url('images/l_nav_bg.gif');
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 
-aside.sidebar li{
+aside.sidebar-container li{
 	background-repeat:no-repeat;
 	display: block;
-
-
 }
 
-aside.sidebar li h1{
+aside.sidebar-container li section{
 	height:60px;
 	width:240px;
-	color:red;
 }
 
-aside.sidebar li ul{
+aside.sidebar-container li ul{
 	width:230px;
 	background-color: white;
 	overflow: hidden;
 	height: 0px;
-	margin: 0 auto;
+	margin: 0 5px 5px 5px;
 	-webkit-transition:all 600ms;	
 }
 
-aside.sidebar li:hover ul{
+aside.sidebar-container li:hover ul{
 	height: 200px;
 }
 
-aside.sidebar li li{
+aside.sidebar-container li li{
 	padding:10px 0;
 }
 
-h1.inkjet{
-	background-image: url('images/lh3_printer.jpg');
+aside.sidebar-container section.inkjet{
+	background-image: url('images/inkjets.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	min-height: 60px;
 }
 
-h1.cutting{
-	background-image: url('images/lh3_cuting.jpg');
+aside.sidebar-container section.cutting{
+	background-image: url('images/cutting-plotters.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	min-height: 60px;
 }
 
-h1.modeling{
-	background-image: url('images/lh3_modeling.jpg');
+aside.sidebar-container section.modeling{
+	background-image: url('images/modeling-plotters.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	min-height: 60px;
 }
 
-h1.software{
-	background-image: url('images/lh3_software.jpg');
+aside.sidebar-container section.software{
+	background-image: url('images/softwares.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	min-height: 60px;
 }
 
 .content{
@@ -163,6 +175,12 @@ nav.menu ul li{
 	border-left: 1px solid #ccc;
 }
 
+nav.menu ul li:hover{
+	background-image: url('images/menu-bg-hover1.png');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
 nav.menu ul li a{
 	display: block;
 	padding: 13px 35px;
@@ -170,7 +188,12 @@ nav.menu ul li a{
 	font-size: 13px;
 	font-weight: bold;
 	color: #666;
+	text-shadow:0 1px #fff;
 	text-decoration: none;
+}
+
+nav.menu ul li:hover a{
+	color: #444;
 }
 
 .slider{
