@@ -60,6 +60,63 @@
 	min-height:422px;
 }
 
+aside.sidebar{
+	direction: rtl;
+	min-height:200px;
+	width: 240px;
+}
+
+aside.sidebar ul{
+	list-style-type: none;
+	background-color: rgb(187,187,187);
+}
+
+aside.sidebar li{
+	background-repeat:no-repeat;
+	display: block;
+
+
+}
+
+aside.sidebar li h1{
+	height:60px;
+	width:240px;
+	color:red;
+}
+
+aside.sidebar li ul{
+	width:230px;
+	background-color: white;
+	overflow: hidden;
+	height: 0px;
+	margin: 0 auto;
+	-webkit-transition:all 600ms;	
+}
+
+aside.sidebar li:hover ul{
+	height: 200px;
+}
+
+aside.sidebar li li{
+	padding:10px 0;
+}
+
+h1.inkjet{
+	background-image: url('images/lh3_printer.jpg');
+}
+
+h1.cutting{
+	background-image: url('images/lh3_cuting.jpg');
+}
+
+h1.modeling{
+	background-image: url('images/lh3_modeling.jpg');
+}
+
+h1.software{
+	background-image: url('images/lh3_software.jpg');
+}
+
 .content{
 	margin-right:240px;
 	min-height:422px;
