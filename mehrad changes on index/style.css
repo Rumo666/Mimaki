@@ -248,33 +248,59 @@ section.container-iframe li span{
 
 /********* slider*********/
 
-section.slider{
+section.banner{
 	width: 950px;
 	margin: 0 auto;
 	min-height: 433px;
 	direction: inherit;
+	overflow: hidden;
 
 }
-
-section.slider div.slides div{
+section.banner div.scroll{
+	width: 4850px;
+}
+section.banner div.scroll div{
 	float: right;
 	display: block;
 }
 
 
-section.slider div.slides img{
+section.banner div.scroll img{
 	display: block;
 	float: right;
 }
+section.banner div.bottons{
+	width: 940px;
+	margin: 0 auto;
+}
+section.banner div.bottons div.right{
 
+}
+section.banner div.bttons ul{
+	list-style-type: none;
 
+}
+section.banner div.bttons ul li{
+	display: block;
+	float: right;
+	margin:10px 10px;
+}
 
-
-
-
-
-
-
+section.banner div.bttons ul li.img1{
+	background-image: url('images/1314185536e7dc68a5.JPG');
+}
+section.banner div.bttons ul li.img2{
+	background-image: url('images/1314185598f1795cfd.JPG');
+}
+section.banner div.bttons ul li.img3{
+	background-image: url('images/13291961521ef30c82.JPG');
+}
+section.banner div.bttons ul li.img4{
+	background-image: url('images/132919621334df53ce.JPG');
+}
+section.banner div.bttons ul li.img5{
+	background-image: url('images/13329998544218bd7e.JPG');
+}
 
 
 
