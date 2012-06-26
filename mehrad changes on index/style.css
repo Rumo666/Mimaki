@@ -257,11 +257,14 @@ section.slider{
 }
 
 section.slider div.slides div{
-	float: left;
+	float: right;
+	display: block;
 }
 
-section.slider div.slides div{
+
+section.slider div.slides img{
 	display: block;
+	float: right;
 }
 
 
