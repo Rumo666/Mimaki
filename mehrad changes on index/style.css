@@ -87,12 +87,7 @@
 	direction: inherit;
 }
 
-.slider{
-	width: 950px;
-	margin: 0 auto;
-	min-height: 433px;
-	direction: inherit;
-}
+
 
 .main-content{
 	width: 950px;
@@ -251,12 +246,22 @@ section.container-iframe li span{
 	display: block;
 }
 
+/********* slider*********/
 
+section.slider{
+	width: 950px;
+	margin: 0 auto;
+	min-height: 433px;
+	direction: inherit;
+}
 
+section.slider div.slides div{
+	float: left;
+}
 
-
-
-
+section.slider div.slides div{
+	display: block;
+}
 
 
 
