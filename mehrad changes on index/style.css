@@ -40,7 +40,7 @@
 
 .slider-container{
 	margin: 0 auto;
-	direction: inherit;
+	direction: ltr;
 	min-height: 433px;
 	/*background-image: url('images/slider-bg.png');
 	background-repeat: repeat-x;
@@ -252,22 +252,25 @@ section.banner{
 	width: 950px;
 	margin: 0 auto;
 	min-height: 433px;
-	direction: inherit;
+	direction: ltr;
 	overflow: hidden;
+	
 
 }
 section.banner div.scroll{
 	width: 4850px;
+	position: relative;
+	direction: ltr;
 }
 section.banner div.scroll div{
-	float: right;
+	float: left;
 	display: block;
 }
 
 
 section.banner div.scroll img{
 	display: block;
-	float: right;
+	float: left;
 }
 section.banner div.bottons{
 	width: 940px;
@@ -286,7 +289,7 @@ section.banner div.bottons div.left{
 	margin-top: 45px;
 	width:40px;
 }
-section.banner div.bttons div.btns{
+section.banner div.bttons div.btns1{
 	margin-right:40px;
 	margin-left: 40px;
 	min-height: 50px;
@@ -298,7 +301,7 @@ section.banner div.bottons ul{
 }
 section.banner div.bottons ul li{
 	display: block;
-	float: right;
+	float: left;
 	margin:10px 10px;
 	width: 152px;
 	min-height:117px;

@@ -26,7 +26,7 @@
 		<section class="banner">
 			
 
-			<div class="scroll">
+			<div class="scroll" id="scroll">
 				<div><img src="images/132746088563c2de1d.JPG" alt="" width="950" height="303" /></div>
 				<div><img src="images/13274608779cd0af20.JPG" alt="" width="950" height="303" /></div>
 				<div><img src="images/13329970497e58993a.JPG" alt="" width="950" height="303" /></div>
@@ -35,11 +35,11 @@
 
 			</div>
 			<div class="bottons">
-				<div class="next right"></div>
-				<div class="prv left"></div>
-				<div class="btns">
+				<div class="next left" onclick="prvSlide()"></div>
+				<div class="prv right" onclick="nextSlide()"></div>
+				<div class="btns1">
 					<ul>
-						<li class="img1"></li>
+						<li class="img1" onclick="document.getElementsById('scroll').style.left= '-200px';"></li>
 						<li class="img2"></li>
 						<li class="img3"></li>
 						<li class="img4"></li>
