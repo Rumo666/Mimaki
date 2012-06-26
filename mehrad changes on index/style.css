@@ -1,5 +1,5 @@
 *{
-	outline: 0px dashed red;
+	outline: 1px dashed red;
 }
 
 .clear{
@@ -41,7 +41,7 @@
 .slider-container{
 	margin: 0 auto;
 	direction: inherit;
-	min-height: 433px;
+	min-height: 441px;
 	/*background-image: url('images/slider-bg.png');
 	background-repeat: repeat-x;
 	background-position: top;*/
@@ -51,7 +51,7 @@
 .main-content-container{
 	margin: 0 auto;
 	direction: inherit;
-	min-height: 422px;
+	min-height: 300px;
 }
 
 .box-container{
@@ -90,14 +90,14 @@
 .slider{
 	width: 950px;
 	margin: 0 auto;
-	min-height: 433px;
+	min-height: 300px;
 	direction: inherit;
 }
 
 .main-content{
 	width: 950px;
 	margin: 0 auto;
-	min-height: 422px;
+	min-height: 300px;
 	direction: inherit;
 }
 
@@ -185,7 +185,7 @@ section.content{
 }
 section.impinfo{
 	min-height: 60px;
-	margin-bottom: 30px;
+	margin-bottom: 23px;
 }
 nav.pickup{
 
@@ -226,7 +226,7 @@ nav.pickup a.event{
 section.container-iframe{
 	width:680px;
 	background-color: #bcbcbc;
-	min-height:600px;
+	min-height:286px;
 }
 section.container-iframe ul{
 	width:660px;
