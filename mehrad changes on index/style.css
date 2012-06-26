@@ -1,5 +1,5 @@
 *{
-	outline: 0px dashed red;
+	outline: 1px dashed red;
 }
 
 .clear{
@@ -253,6 +253,7 @@ section.slider{
 	margin: 0 auto;
 	min-height: 433px;
 	direction: inherit;
+
 }
 
 section.slider div.slides div{
