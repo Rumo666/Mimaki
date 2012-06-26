@@ -61,7 +61,7 @@
 }
 
 aside.sidebar-container{
-	direction: rtl;
+	direction: inherit;
 	min-height:200px;
 	width: 240px;
 }
@@ -228,6 +228,41 @@ nav.menu ul li:hover a{
 	width: 221px;
 	min-height: 100px;
 	padding-right: 10px;
+	background-image: url('images/box-bg.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+div.box section.sign-graphic{
+	width: 221px;
+	min-height: 103px;
+	background-image: url('images/box1.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+div.box section.industrial-products{
+	width: 221px;
+	min-height: 103px;
+	background-image: url('images/box2.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+div.box section.textile-apparel{
+	width: 221px;
+	min-height: 103px;
+	background-image: url('images/box3.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+div.box ul{
+	margin: 0 auto;
+}
+
+div.box ul li{
+	padding: 10px 0;
 }
 
 .navigation{
