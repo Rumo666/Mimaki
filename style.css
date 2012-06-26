@@ -102,19 +102,31 @@ aside.sidebar li li{
 }
 
 h1.inkjet{
-	background-image: url('images/lh3_printer.jpg');
+	background-image: url('images/inkjets.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 60px;
 }
 
 h1.cutting{
-	background-image: url('images/lh3_cuting.jpg');
+	background-image: url('images/cutting-plotters.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 60px;
 }
 
 h1.modeling{
-	background-image: url('images/lh3_modeling.jpg');
+	background-image: url('images/modeling-plotters.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 60px;
 }
 
 h1.software{
-	background-image: url('images/lh3_software.jpg');
+	background-image: url('images/softwares.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 60px;
 }
 
 .content{
