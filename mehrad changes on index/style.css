@@ -265,35 +265,39 @@ div.banner div.scroll{
 	position:absolute;
 	left:0;
 	top:0;
+	direction: ltr;
+	padding-top:1px;
 	-webkit-transition-property:all;
 	-webkit-transition-duration:800ms;
+	-webkit-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+
 	
 	
 }
-div.banner div.scroll div{
+div.banner div.scroll > div{
 	width:950px;
-	height:304px;
+	height:100px;
 	float:left;
 	background-repeat:no-repeat;
 	background-position:left top;
 }
-div.banner div.scroll > div.adv1{
+div.banner div.scroll div.adv1{
 	
 	background-image:url('images/132746088563c2de1d.JPG');
 }
-div.banner div.scroll > div.adv2{
+div.banner div.scroll div.adv2{
 	
 	background-image:url('images/13274608779cd0af20.JPG');
 }
-div.banner div.scroll > div.adv3{
+div.banner div.scroll div.adv3{
 	
 	background-image:url('images/13329970497e58993a.JPG');
 }
-div.banner div.scroll > div.adv4{
+div.banner div.scroll div.adv4{
 
 	background-image:url('images/1329301246a476aad2.JPG');
 }
-div.banner div.scroll > div.adv5{
+div.banner div.scroll div.adv5{
 	
 	background-image:url('images/1329273262dca1c3ea.JPG');
 }
@@ -325,10 +329,12 @@ section.banner div.bttons div.arrows{
 	margin-left: 40px;
 	min-height: 50px;
 	width:885px;
+	height:152px;
 }
-section.banner div.bottons ul{
+section.banner div.bottons ul.btns{
 	list-style-type: none;
-
+	width:897px;
+	height:152px;
 }
 section.banner div.bottons ul li{
 	display: block;
@@ -338,19 +344,19 @@ section.banner div.bottons ul li{
 	min-height:117px;
 }
 
-section.banner div.bottons ul li.img1{
+section.banner div.bottons ul.btns li.img1{
 	background-image: url('images/13329998544218bd7e.JPG');
 }
-section.banner div.bottons ul li.img2{
+section.banner div.bottons ul.btns li.img2{
 	background-image: url('images/132919621334df53ce.JPG');
 }
-section.banner div.bottons ul li.img3{
+section.banner div.bottons ul.btns li.img3{
 	background-image: url('images/13291961521ef30c82.JPG');
 }
-section.banner div.bottons ul li.img4{
+section.banner div.bottons ul.btns li.img4{
 	background-image: url('images/1314185598f1795cfd.JPG');
 }
-section.banner div.bottons ul li.img5{
+section.banner div.bottons ul.btns li.img5{
 	background-image: url('images/1314185536e7dc68a5.JPG');
 }
 
