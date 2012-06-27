@@ -6,7 +6,7 @@ window.onload=function(){
 	
 	divScrl = document.getElementsByClassName('banner').item(0).getElementsByClassName('scroll').item(0);
 	
-	liBtns = document.getElementsByClassName('banner').item(0).getElementsByClassName('btn').item(0).getElementsByTagName('li');
+	liBtns = document.getElementsByClassName('banner').item(0).getElementsByClassName('btns').item(0).getElementsByTagName('li');
 	
 	picsLen = liBtns.length;
 
