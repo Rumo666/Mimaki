@@ -256,7 +256,7 @@ section.banner{
 	overflow: hidden;
 	position: relative;
 	padding-top:1px;
-	min-height:500px;
+
 
 }
 div.banner div.scroll{
@@ -267,7 +267,7 @@ div.banner div.scroll{
 	top:0;
 	-webkit-transition-property:all;
 	-webkit-transition-duration:800ms;
-	-webkit-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	
 	
 }
 div.banner div.scroll div{
@@ -339,19 +339,19 @@ section.banner div.bottons ul li{
 }
 
 section.banner div.bottons ul li.img1{
-	background-image: url('images/1314185536e7dc68a5.JPG');
+	background-image: url('images/13329998544218bd7e.JPG');
 }
 section.banner div.bottons ul li.img2{
-	background-image: url('images/1314185598f1795cfd.JPG');
+	background-image: url('images/132919621334df53ce.JPG');
 }
 section.banner div.bottons ul li.img3{
 	background-image: url('images/13291961521ef30c82.JPG');
 }
 section.banner div.bottons ul li.img4{
-	background-image: url('images/132919621334df53ce.JPG');
+	background-image: url('images/1314185598f1795cfd.JPG');
 }
 section.banner div.bottons ul li.img5{
-	background-image: url('images/13329998544218bd7e.JPG');
+	background-image: url('images/1314185536e7dc68a5.JPG');
 }
 
 
