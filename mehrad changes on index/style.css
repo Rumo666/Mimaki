@@ -254,21 +254,24 @@ section.banner{
 	min-height: 433px;
 	direction: ltr;
 	overflow: hidden;
-	
+	position: relative;
+	padding-top:1px;
 
 }
 section.banner div.scroll{
 	width: 4850px;
-	position: relative;
+	position: absolute;
 	direction: ltr;
+	padding-top:1px;
 }
-section.banner div.scroll div{
+section.banner div.scroll > div{
 	float: left;
-	display: block;
+	
 }
 
 
-section.banner div.scroll img{
+section.banner div.scroll > 
+img{
 	display: block;
 	float: left;
 }
@@ -277,6 +280,9 @@ section.banner div.bottons{
 	margin: 0 auto;
 	min-height:100px;
 	padding-top:1px;
+	position: absolute;
+	top:300px;
+	left:5px;
 }
 section.banner div.bottons div.right{
 	min-height:40px;
