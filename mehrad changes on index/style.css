@@ -259,9 +259,9 @@ section.banner{
 
 
 }
-div.banner div.scroll{
+section.banner div.scroll{
 	width:5000px; /* 5*980 (per img) */
-	height:304px;
+	height:300px;
 	position:absolute;
 	left:0;
 	top:0;
@@ -274,32 +274,33 @@ div.banner div.scroll{
 	
 	
 }
-div.banner div.scroll > div{
+section.banner div.scroll div{
 	width:950px;
-	height:100px;
+	height:300px;
 	float:left;
 	background-repeat:no-repeat;
 	background-position:left top;
+	direction: ltr;
 }
-div.banner div.scroll div.adv1{
+section.banner div.scroll > div.adv1{
 	
-	background-image:url('images/132746088563c2de1d.JPG');
+	background-image:url(images/132746088563c2de1d.JPG);
 }
-div.banner div.scroll div.adv2{
+section.banner div.scroll > div.adv2{
 	
-	background-image:url('images/13274608779cd0af20.JPG');
+	background-image:url(images/13274608779cd0af20.JPG);
 }
-div.banner div.scroll div.adv3{
+section.banner div.scroll > div.adv3{
 	
-	background-image:url('images/13329970497e58993a.JPG');
+	background-image:url(images/13329970497e58993a.JPG);
 }
-div.banner div.scroll div.adv4{
+section.banner div.scroll > div.adv4{
 
-	background-image:url('images/1329301246a476aad2.JPG');
+	background-image:url(images/1329301246a476aad2.JPG);
 }
-div.banner div.scroll div.adv5{
+section.banner div.scroll > div.adv5{
 	
-	background-image:url('images/1329273262dca1c3ea.JPG');
+	background-image:url(images/1329273262dca1c3ea.JPG);
 }
 
 
