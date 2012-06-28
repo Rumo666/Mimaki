@@ -206,15 +206,94 @@ nav.menu ul li:hover a{
 .main-content{
 	width: 950px;
 	margin: 0 auto;
-	padding-top: 20px;
+	padding-top: 17px;
 	min-height: 400px;
 	direction: inherit;
 }
 
 .content-body{
 	min-height:400px;
-	padding: 15px 25px 15px 0px;
+	padding: 0px 25px 15px 0px;
 }
+
+/******************* iframe ***********************/
+nav.pickup{
+
+}
+nav.pickup ul{
+	list-style-type: none;
+}
+
+nav.pickup ul li{
+	float:right;
+
+}
+nav.pickup ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-indent: -99999px;
+	padding:17px 85px;
+
+}
+
+nav.pickup ul li a.pickup{
+	height:34px;
+	background-image: url('images/exhibition.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+nav.pickup ul li a.product{
+	background-image: url('images/exhibition.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+nav.pickup ul li a.news{
+	background-image: url('images/exhibition.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+nav.pickup ul li a.event{
+	background-image: url('images/exhibition.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+nav.pickup ul li a:hover{
+	background-position: bottom;
+}
+
+section.container-iframe{
+	width:680px;
+	background-color: #bcbcbc;
+	min-height:600px;
+}
+section.container-iframe ul{
+	width:660px;
+	margin: 0 auto;
+	
+	}
+section.container-iframe li{
+	min-height:100px;
+	border-top: 1px dotted #898989;
+}
+
+section.container-iframe li a{
+	display: block;
+	float: right;
+
+}
+
+section.container-iframe li p{
+	margin-left: 60px;
+}
+section.container-iframe li span{
+	display: block;
+}
+
+/******************* iframe end *******************/
 
 .content-boxes{
 	padding: 0px 15px 35px 0px;
@@ -310,24 +389,6 @@ div.box:hover ul li{
 	-o-transition: all 600ms;
 	-moz-transition: all 600ms;
 }
-
-/*
-div.box section.industrial-products{
-	width: 221px;
-	min-height: 103px;
-	background-image: url('images/box2.png');
-	background-position: top;
-	background-repeat: no-repeat;
-}
-
-div.box section.textile-apparel{
-	width: 221px;
-	min-height: 103px;
-	background-image: url('images/box3.png');
-	background-position: top;
-	background-repeat: no-repeat;
-}
-*/
 
 .navigation{
 	width: 950px;
