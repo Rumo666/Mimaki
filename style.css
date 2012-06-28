@@ -217,7 +217,7 @@ nav.menu ul li:hover a{
 }
 
 .content-boxes{
-	padding: 0px 15px 40px 0px;
+	padding: 0px 15px 35px 0px;
 	direction: inherit;
 	min-height: 103px;
 	direction: inherit;
@@ -225,25 +225,55 @@ nav.menu ul li:hover a{
 
 div.box{
 	float: right;
-	width: 221px;
-	min-height: 103px;
-	background-image: url('images/box-bg.png');
+	width: 222px;
+	margin-right: 9px;
+	background-image: url('images/box_bg.png');
 	background-position: bottom;
 	background-repeat: no-repeat;
-	margin-right: 10px;
-	
 }
 
-div.box section{
-	height: 103px;
+div.box section.sign-graphic{
+	min-height: 103px;
 	background-image: url('images/box1.png');
 	background-position: top;
 	background-repeat: no-repeat;
-	opacity: 0.7;
+	opacity: 0.6;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
+
+div.box section.industrial-products{
+	min-height: 103px;
+	background-image: url('images/box2.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
+
+div.box section.textile-apparel{
+	min-height: 103px;
+	background-image: url('images/box3.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
 }
 
 div.box:hover section{
 	opacity: 1;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
 }
 
 div.box ul{
@@ -254,21 +284,34 @@ div.box ul{
 	-ms-transition: all 600ms;
 	-o-transition: all 600ms;
 	-moz-transition: all 600ms;
-	
 }
+
 div.box:hover ul{
-	height: 150px;
+	height: 130px;
 	overflow: visible;
 	-webkit-transition: all 600ms;
 	-ms-transition: all 600ms;
 	-o-transition: all 600ms;
 	-moz-transition: all 600ms;
-
+}
 div.box ul li{
-	padding: 10px 0;
+	padding: 5px 0;
+	opacity: 0;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
 }
 
+div.box:hover ul li{
+	opacity: 1;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
 
+/*
 div.box section.industrial-products{
 	width: 221px;
 	min-height: 103px;
@@ -284,6 +327,7 @@ div.box section.textile-apparel{
 	background-position: top;
 	background-repeat: no-repeat;
 }
+*/
 
 .navigation{
 	width: 950px;
