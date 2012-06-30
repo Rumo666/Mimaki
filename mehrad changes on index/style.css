@@ -46,7 +46,7 @@ span{
 	/*background-image: url('images/slider-bg.png');
 	background-repeat: repeat-x;
 	background-position: top;*/
-	margin-bottom: 10px;
+	
 }
 
 .main-content-container{
@@ -335,7 +335,7 @@ section.banner div.bottons div.prv{
 	background-image: url('images/prev.jpg');
 
 }
-section.banner div.bttons div.arrows{
+section.banner div.bottons div.arrows{
 	margin-right:40px;
 	margin-left: 40px;
 	min-height: 50px;
