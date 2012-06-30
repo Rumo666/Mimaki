@@ -18,7 +18,7 @@ span{
 
 .main-container{
 	margin: 0 auto;
-	direction: rtl;
+	direction: ltr;
 	font-family: Tahoma;
 	font-size: 12px;
 	background-repeat: no-repeat;
@@ -401,7 +401,7 @@ div.formheader{
 }
 div.contactfield{
 	min-height:400px;
-	width:600px;
+	width:680px;
 }
 div.contactfield div.w4{
 	min-height:25px;
@@ -409,11 +409,13 @@ div.contactfield div.w4{
 div.contactfield div.ml4{
 	min-height: 25px;
 }
-div.contactfield div{
-	width:600px;
+
+div.contactfield div.name,div.state,div.category,div.address,div.country{
+	width:680px;
 }
-
-
+div.contactfield select,input{
+	float: left;
+}
 
 
 
