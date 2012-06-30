@@ -1,7 +1,9 @@
 *{
-	outline: 1px dashed red;
+	outline: 0px dashed red;
 }
-
+span{
+	display: inline;
+}
 .clear{
 	clear:both;
 	width: 0;
@@ -19,7 +21,6 @@
 	direction: rtl;
 	font-family: Tahoma;
 	font-size: 12px;
-	background-image: url('images/background.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
 }
@@ -172,7 +173,11 @@ h1.software{
 }
 
 
-/*************** content *****************/
+
+
+/************************************ content(iframe) **************************************/
+
+
 
 
 section.content{
@@ -229,8 +234,9 @@ section.container-iframe ul{
 	
 	}
 section.container-iframe li{
-	min-height:100px;
+	min-height:50px;
 	border-top: 1px dotted #898989;
+	padding:8px 0;
 }
 
 section.container-iframe li a{
@@ -313,17 +319,21 @@ section.banner div.bottons{
 	position: absolute;
 	top:300px;
 	left:5px;
+	background-color: 
 }
-section.banner div.bottons div.right{
+section.banner div.bottons div.next{
 	min-height:40px;
 	margin-top: 45px;
 
 	width:40px;
+	background-image: url('images/back.jpg');
 }
-section.banner div.bottons div.left{
+section.banner div.bottons div.prv{
 	min-height:40px;
 	margin-top: 45px;
 	width:40px;
+	background-image: url('images/prev.jpg');
+
 }
 section.banner div.bttons div.arrows{
 	margin-right:40px;
@@ -336,6 +346,7 @@ section.banner div.bottons ul.btns{
 	list-style-type: none;
 	width:897px;
 	height:152px;
+
 }
 section.banner div.bottons ul li{
 	display: block;
@@ -343,6 +354,9 @@ section.banner div.bottons ul li{
 	margin:10px 10px;
 	width: 152px;
 	min-height:117px;
+}
+section.banner div.bottons ul li:hover{
+	box-shadow: 0px 0px 5px #444;
 }
 
 section.banner div.bottons ul.btns li.img1{

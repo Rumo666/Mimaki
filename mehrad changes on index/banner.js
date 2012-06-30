@@ -27,7 +27,7 @@ window.onload=function(){
 
 	for(var i=0;i<picsLen;i++){
 		(function(j){
-			liBtns.item(j).onclick=function(){
+			liBtns.item(j).onmouseover=function(){
 				go2slide(j);
 			}
 		})(i);
