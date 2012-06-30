@@ -1,5 +1,5 @@
 *{
-	outline: 1px dashed red;
+	outline: 0px dashed red;
 }
 
 .clear{
@@ -13,15 +13,14 @@
 	margin: 0;
 }
 
-
 .main-container{
 	margin: 0 auto;
 	direction: rtl;
 	font-family: Tahoma;
 	font-size: 12px;
-	background-image: url('images/background.jpg');
+	/*background-image: url('images/background.jpg');
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: top;*/
 }
 
 .header-container{
@@ -39,13 +38,137 @@
 }
 
 .slider-container{
-	/*background-image: url('images/slider-bg.png');
-	background-position: top;*/
+	background-image: url('images/slider-bg.png');
+	background-position: top;
 	background-repeat: repeat-x;
 	direction: inherit;
 	margin: 0 auto;
-	min-height: 433px;
 }
+
+
+/********* slider*********/
+
+section.slider{
+	width: 950px;
+	margin: 0 auto;
+	min-height: 426px;
+	direction: ltr;
+	overflow: hidden;
+	position: relative;
+	padding-top:1px;
+
+
+}
+section.slider div.scroll{
+	width:5000px; /* 5*980 (per img) */
+	height:294px;
+	position:absolute;
+	left:0;
+	top:0;
+	direction: ltr;
+	padding-top:1px;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:800ms;
+	-webkit-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+
+	
+	
+}
+section.slider div.scroll div{
+	width:950px;
+	height:294px;
+	float:left;
+	background-repeat:no-repeat;
+	background-position:left top;
+	direction: ltr;
+}
+section.slider div.scroll > div.adv1{
+	
+	background-image:url(images/132746088563c2de1d.JPG);
+}
+section.slider div.scroll > div.adv2{
+	
+	background-image:url(images/13274608779cd0af20.JPG);
+}
+section.slider div.scroll > div.adv3{
+	
+	background-image:url(images/13329970497e58993a.JPG);
+}
+section.slider div.scroll > div.adv4{
+
+	background-image:url(images/1329301246a476aad2.JPG);
+}
+section.slider div.scroll > div.adv5{
+	
+	background-image:url(images/1329273262dca1c3ea.JPG);
+}
+
+
+
+section.slider div.bottons{
+	width: 940px;
+	margin: 0 auto;
+	padding-top:1px;
+	position: absolute;
+	top:294px;
+	left:5px;
+	background-color: 
+}
+section.slider div.bottons div.next{
+	min-height:40px;
+	margin-top: 45px;
+
+	width:40px;
+	background-image: url('images/back.jpg');
+}
+section.slider div.bottons div.prv{
+	min-height:40px;
+	margin-top: 45px;
+	width:40px;
+	background-image: url('images/prev.jpg');
+
+}
+section.slider div.bottons div.arrows{
+	margin-right:40px;
+	margin-left: 40px;
+	min-height: 50px;
+	width:885px;
+	height:152px;
+}
+section.slider div.bottons ul.btns{
+	list-style-type: none;
+	width:897px;
+	height:152px;
+
+}
+section.slider div.bottons ul li{
+	display: block;
+	float: left;
+	margin:10px 10px;
+	width: 152px;
+	min-height:117px;
+}
+section.slider div.bottons ul li:hover{
+	box-shadow: 0px 0px 5px #444;
+}
+
+section.slider div.bottons ul.btns li.img1{
+	background-image: url('images/13329998544218bd7e.JPG');
+}
+section.slider div.bottons ul.btns li.img2{
+	background-image: url('images/132919621334df53ce.JPG');
+}
+section.slider div.bottons ul.btns li.img3{
+	background-image: url('images/13291961521ef30c82.JPG');
+}
+section.slider div.bottons ul.btns li.img4{
+	background-image: url('images/1314185598f1795cfd.JPG');
+}
+section.slider div.bottons ul.btns li.img5{
+	background-image: url('images/1314185536e7dc68a5.JPG');
+}
+
+/*****************************************************************************************************************************/
 
 .main-content-container{
 	margin: 0 auto;
@@ -316,7 +439,7 @@ div.box section.sign-graphic{
 	background-image: url('images/box1.png');
 	background-position: top;
 	background-repeat: no-repeat;
-	opacity: 0.6;
+	opacity: 1;
 	-webkit-transition: all 600ms;
 	-ms-transition: all 600ms;
 	-o-transition: all 600ms;
@@ -328,7 +451,7 @@ div.box section.industrial-products{
 	background-image: url('images/box2.png');
 	background-position: top;
 	background-repeat: no-repeat;
-	opacity: 0.6;
+	opacity: 1;
 	-webkit-transition: all 600ms;
 	-ms-transition: all 600ms;
 	-o-transition: all 600ms;
@@ -340,7 +463,7 @@ div.box section.textile-apparel{
 	background-image: url('images/box3.png');
 	background-position: top;
 	background-repeat: no-repeat;
-	opacity: 0.6;
+	opacity: 1;
 	-webkit-transition: all 600ms;
 	-ms-transition: all 600ms;
 	-o-transition: all 600ms;
@@ -348,7 +471,7 @@ div.box section.textile-apparel{
 }
 
 div.box:hover section{
-	opacity: 1;
+	opacity: 0.7;
 	-webkit-transition: all 600ms;
 	-ms-transition: all 600ms;
 	-o-transition: all 600ms;
