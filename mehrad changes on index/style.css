@@ -1,5 +1,5 @@
 *{
-	outline: 1px dashed red;
+	outline: 0px dashed red;
 }
 span{
 	display: inline;
@@ -380,7 +380,6 @@ div.container-contact{
 	width: 950px;
 	padding-top: 220px;
 	margin: 0 auto;
-	background-image:url('images/contact.jpg');
 
 }
 section.contact{
@@ -410,7 +409,7 @@ div.contactfield div.ml4{
 	min-height: 25px;
 }
 
-div.contactfield div.name,div.state,div.category,div.address,div.country{
+div.contactfield div.name,div.state,div.category,div.address,div.country,div.question{
 	width:680px;
 	min-height:25px;
 }
@@ -418,8 +417,12 @@ div.contactfield select,input{
 	float: left;
 	margin:4px 4px;
 }
-
-
+div.contactfield textarea{
+	width: 680px;
+}
+div.contactfield span{
+	margin:0 auto;
+}
 
 
 
