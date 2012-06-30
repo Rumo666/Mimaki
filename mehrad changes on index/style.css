@@ -377,7 +377,7 @@ section.banner div.bottons ul.btns li.img5{
 /************************** contact us ***************************/
 
 section.container-contact{
-	width: 600px;
+	width: 950px;
 	min-height:500px;
 	margin: 0 auto;
 }
@@ -386,7 +386,7 @@ div.formheader{
 	width:600px;
 	min-height:50px;
 	background-image: url('images/h3_list.gif');
-	margin-right: 200px;
+
 }
 
 
