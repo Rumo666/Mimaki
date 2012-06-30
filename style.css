@@ -206,63 +206,188 @@ nav.menu ul li:hover a{
 .main-content{
 	width: 950px;
 	margin: 0 auto;
-	padding-top: 20px;
+	padding-top: 17px;
 	min-height: 400px;
 	direction: inherit;
 }
 
 .content-body{
 	min-height:400px;
-	padding: 15px 25px 15px 0px;
+	padding: 0px 25px 15px 0px;
 }
 
+/******************* iframe ***********************/
+nav.pickup{
+
+}
+nav.pickup ul{
+	list-style-type: none;
+}
+
+nav.pickup ul li{
+	float:right;
+
+}
+nav.pickup ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-indent: -99999px;
+	padding:17px 85px;
+
+}
+
+nav.pickup ul li a.pickup{
+	height:34px;
+	background-image: url('images/exhibition.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+nav.pickup ul li a.product{
+	background-image: url('images/exhibition.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+nav.pickup ul li a.news{
+	background-image: url('images/exhibition.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+nav.pickup ul li a.event{
+	background-image: url('images/exhibition.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+nav.pickup ul li a:hover{
+	background-position: bottom;
+}
+
+section.container-iframe{
+	width:680px;
+	background-color: #bcbcbc;
+	min-height:600px;
+}
+section.container-iframe ul{
+	width:660px;
+	margin: 0 auto;
+	
+	}
+section.container-iframe li{
+	min-height:100px;
+	border-top: 1px dotted #898989;
+}
+
+section.container-iframe li a{
+	display: block;
+	float: right;
+
+}
+
+section.container-iframe li p{
+	margin-left: 60px;
+}
+section.container-iframe li span{
+	display: block;
+}
+
+/******************* iframe end *******************/
+
 .content-boxes{
-	padding: 0px 15px 40px 0px;
+	padding: 0px 15px 35px 0px;
 	direction: inherit;
 	min-height: 103px;
 	direction: inherit;
 }
 
-.box{
+div.box{
 	float: right;
-	width: 221px;
-	min-height: 100px;
-	padding-right: 10px;
-	background-image: url('images/box-bg.png');
+	width: 222px;
+	margin-right: 9px;
+	background-image: url('images/box_bg.png');
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
 
 div.box section.sign-graphic{
-	width: 221px;
 	min-height: 103px;
 	background-image: url('images/box1.png');
 	background-position: top;
 	background-repeat: no-repeat;
+	opacity: 0.6;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
 }
 
 div.box section.industrial-products{
-	width: 221px;
 	min-height: 103px;
 	background-image: url('images/box2.png');
 	background-position: top;
 	background-repeat: no-repeat;
+	opacity: 0.6;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
 }
 
 div.box section.textile-apparel{
-	width: 221px;
 	min-height: 103px;
 	background-image: url('images/box3.png');
 	background-position: top;
 	background-repeat: no-repeat;
+	opacity: 0.6;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
+
+div.box:hover section{
+	opacity: 1;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
 }
 
 div.box ul{
-	margin: 0 auto;
+	height: 0;
+	overflow: hidden;
+	padding: 0 5px 5px 5px;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
 }
 
+div.box:hover ul{
+	height: 130px;
+	overflow: visible;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
 div.box ul li{
-	padding: 10px 0;
+	padding: 5px 0;
+	opacity: 0;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
+
+div.box:hover ul li{
+	opacity: 1;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
 }
 
 .navigation{
