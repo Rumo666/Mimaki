@@ -374,10 +374,19 @@ section.banner div.bottons ul.btns li.img4{
 section.banner div.bottons ul.btns li.img5{
 	background-image: url('images/1314185536e7dc68a5.JPG');
 }
+/************************** contact us ***************************/
 
+section.container-contact{
+	width: 600px;
+	min-height:500px;
+	margin: 0 auto;
+}
 
-
-
-
+div.formheader{
+	width:600px;
+	min-height:50px;
+	background-image: url('images/h3_list.gif');
+	margin-right: 200px;
+}
 
 
