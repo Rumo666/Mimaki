@@ -1,5 +1,5 @@
 *{
-	outline: 0px dashed red;
+	outline: 1px dashed red;
 }
 span{
 	display: inline;
@@ -376,17 +376,47 @@ section.banner div.bottons ul.btns li.img5{
 }
 /************************** contact us ***************************/
 
-section.container-contact{
+div.container-contact{
 	width: 950px;
-	min-height:500px;
+	padding-top: 220px;
 	margin: 0 auto;
-}
+	background-image:url('images/contact.jpg');
 
+}
+section.contact{
+	width:680px;
+	min-height: 700px;
+	margin-left: 270px;
+}
 div.formheader{
-	width:600px;
-	min-height:50px;
+	width:680px;
+	min-height:30px;
 	background-image: url('images/h3_list.gif');
+	
+	border:1px solid #999;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	margin-bottom: 20px;
 
 }
+div.contactfield{
+	min-height:400px;
+	width:600px;
+}
+div.contactfield div.w4{
+	min-height:25px;
+}
+div.contactfield div.ml4{
+	min-height: 25px;
+}
+div.contactfield div{
+	width:600px;
+}
+
+
+
+
+
+
 
 
