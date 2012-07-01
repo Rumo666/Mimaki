@@ -1,6 +1,6 @@
-*{
+/**{
 	outline: 1px dashed red;
-}
+}*/
 
 .clear{
 	clear:both;
@@ -26,6 +26,14 @@
 .header-container{
 	margin: 0 auto;
 	direction: inherit;
+}
+
+.logo{
+	padding: 30px 0;
+}
+.logo a{
+	margin-right: 540px;
+	
 }
 
 .menu-container{
@@ -542,8 +550,7 @@ div.box:hover ul li{
 
 nav.navigation div.nav-logo{
 	float: right;
-	padding: auto 0;
-	width: 249px
+	width: 249px;
 }
 
 nav.navigation div.nav-items{
@@ -552,7 +559,6 @@ nav.navigation div.nav-items{
 
 nav.navigation div.nav-items ul li{
 	display: block;
-	padding: auto 0;
 	margin-right: 5px;
 	float: left;
 	border-left: 1px solid #ddd;
