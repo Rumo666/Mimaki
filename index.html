@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="reset.css" />
 	<link rel="stylesheet" type="text/css" href="1styles.css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="slider.js" ></script>
 	<link rel="shortcut icon" href='favicon.ico' />
 </head>
 <body>
@@ -30,9 +31,28 @@
 		</nav>
 	</div>
 	<div class="slider-container">
-		<div class="slider">
-			
-		</div>
+		<section class="slider">
+			<div class="scroll">
+        		<div class="adv1"></div>
+            	<div class="adv2"></div>
+            	<div class="adv3"></div>
+            	<div class="adv4"></div>
+            	<div class="adv5"></div>
+        	</div>
+			<div class="bottons">
+				<div class="next left" onclick="prvSlide()"></div>
+				<div class="prv right" onclick="nextSlide()"></div>
+				<div class="arrows">
+					<ul class="btns">
+						<li class="img1"></li>
+						<li class="img2"></li>
+						<li class="img3"></li>
+						<li class="img4"></li>
+						<li class="img5"></li>
+					</ul>
+				</div>
+			</div>
+		</section>
 	</div>
 	<div class="main-content-container">
 		<div class="main-content">
@@ -87,13 +107,12 @@
 						<nav class="pickup">
 							<ul>
 								<li><a class="pickup" href="iframe.html" target="iframe_a"></a></li>
-								<li><a class="product" href="#" target="iframe_a"></a></li>
-								<li><a class="event" href="#" target="iframe_a"></a></li>
-								<li><a class="news" href="#" target="iframe_a"></a></li>
-								<div class="clear"></div>
+								<li><a class="product" href="iframe.html" target="iframe_a"></a></li>
+								<li><a class="event" href="iframe.html" target="iframe_a"></a></li>
+								<li><a class="news" href="iframe.html" target="iframe_a"></a></li>
 							</ul>
 						</nav>
-						<iframe src="demo_iframe.htm" name="iframe_a" class="ghabr" width="685" min-height="418"></iframe>
+						<iframe src="iframe.html" name="iframe_a" class="iframe" width="680" min-height="429" scrolling="0"></iframe>
 					</section>
 				</div>
 				<div class="content-boxes">
@@ -138,12 +157,28 @@
 	</div>
 	<div class="navigation-container">
 		<nav class="navigation">
-			
+			<div class="nav-logo">
+				<img src="images/navigation-logo.png" width="249" height="32" />
+			</div>
+			<div class="nav-items">
+				<ul>
+					<li><a href="#">تست منو</a></li>
+					<li><a href="#">تست منو</a></li>
+					<li><a href="#">تست منو</a></li>
+					<li><a href="#">تست منو</a></li>
+					<li><a href="#">تست منو</a></li>
+					<li><a href="#">تست منو</a></li>
+					<li><a href="#">تست منو</a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
 		</nav>
 	</div>
 	<div class="copyright-container">
 		<footer class="copyright">
-			
+			<section class="copyright-text">
+				<p>کپی رایت 2012 ، شرکت پیوند بدیع نمایندگی رسمی فروش</br > و تعمیرات دستگاه های چاپ تخصصی میماکی در ایران</p>
+			</section>
 		</footer>
 	</div>
 </div>
