@@ -324,7 +324,6 @@ section.banner div.bottons{
 section.banner div.bottons div.next{
 	min-height:40px;
 	margin-top: 45px;
-
 	width:40px;
 	background-image: url('images/back.jpg');
 }
@@ -333,7 +332,6 @@ section.banner div.bottons div.prv{
 	margin-top: 45px;
 	width:40px;
 	background-image: url('images/prev.jpg');
-
 }
 section.banner div.bttons div.arrows{
 	margin-right:40px;
@@ -401,9 +399,12 @@ div.formheader{
 div.contactfield{
 	min-height:500px;
 	width:680px;
+	
 }
 div.contactfield div.w4{
 	min-height:25px;
+	background-color: #c9c9c9;
+	outline:1px solid white;
 }
 div.contactfield div.ml4{
 	min-height: 25px;
@@ -415,13 +416,14 @@ div.contactfield div.name,div.state,div.category,div.address,div.country,div.que
 }
 div.contactfield select,input{
 	float: left;
-	margin:4px 4px;
+	margin:4px 3px;
 }
 div.contactfield textarea{
 	width: 680px;
 }
 div.contactfield span{
-	margin:0 auto;
+	margin-right:13px;
+	font-family:Tahoma;
 }
 
 
