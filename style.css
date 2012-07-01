@@ -18,9 +18,9 @@
 	direction: rtl;
 	font-family: Tahoma;
 	font-size: 12px;
-	background-image: url('images/background.jpg');
+	/*background-image: url('images/background.jpg');
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: top;*/
 }
 
 .header-container{
@@ -544,33 +544,37 @@ div.box:hover ul li{
 .navigation-container{
 	margin: 0 auto;
 	direction: inherit;
-	min-height: 32px;
 	background-color: #777;
 }
 
 .navigation{
+	display: block;
 	width: 950px;
 	margin: 0 auto;
-	min-height: 32px;
 	padding-top: 1px;
 	direction: inherit;
-	direction: inherit;
 }
 
-nav.navigation ul{
-	margin: 0 auto;
-	padding: 10px 0;
+nav.navigation div.nav-logo{
+	float: left;
+	padding: auto 0;
+	width: 249px
 }
 
-nav.navigation ul li{
+nav.navigation div.nav-items{
+	margin:10px 0 0 300px;	
+}
+
+nav.navigation div.nav-items ul li{
 	display: block;
+	padding: auto 0;
 	margin-left: 5px;
 	float: right;
 	border-right: 1px solid #ddd;
 	list-style-type: none;
 }
 
-nav.navigation ul li a{
+nav.navigation div.nav-items ul li a{
 	padding: 0 10px;
 	color: #eee;
 	text-decoration: underline;
@@ -578,13 +582,18 @@ nav.navigation ul li a{
 
 .copyright-container{
 	margin: 0 auto;
-	direction: inherit;
-	min-height: 105px;
 }
 
 .copyright{
 	width: 950px;
 	margin: 0 auto;
+	padding: 10px 0; 
 	min-height: 105px;
-	direction: inherit;
+	direction: ltr;
+}
+
+footer.copyright section.copyright-text{
+	direction: ltr;
+	text-align: left;
+	color: #777;
 }
