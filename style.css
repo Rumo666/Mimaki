@@ -161,10 +161,10 @@ section.slider div.bottons ul li{
 	opacity: 1;
 }
 
-section.slider div.bottons ul li:hover{
+/*section.slider div.bottons ul li:hover{
 	box-shadow: 0px 0px 5px #444;
 	opacity: 0.7;
-}
+}*/
 
 section.slider div.bottons ul.btns li.img1{
 	background-image: url('images/13329998544218bd7e.JPG');
@@ -193,6 +193,10 @@ section.slider div.bottons ul.btns li.img5{
 	background-image: url('images/1314185536e7dc68a5.JPG');
 	background-repeat: no-repeat;
 	background-position: top;
+}
+
+section.slider div.bottons ul.btns li:hover{
+	background-position: bottom;
 }
 /************************************************************* main content **************************************************/
 
