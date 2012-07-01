@@ -331,19 +331,6 @@ aside.sidebar-container section.software:hover{
 	min-height:400px;
 }
 
-.navigation-container{
-	margin: 0 auto;
-	direction: inherit;
-	min-height: 32px;
-	/*background-color: #333;*/
-}
-
-.copyright-container{
-	margin: 0 auto;
-	direction: inherit;
-	min-height: 105px;
-}
-
 .header{
 	width: 950px;
 	margin: 0 auto;
@@ -407,11 +394,23 @@ nav.menu ul li:hover a{
 }
 
 /******************* iframe ***********************/
+section.pickup{
+	min-height: 466px;
+}
+
+section.pickup iframe.iframe{
+	width: 680px;
+	min-height: 429px;
+}
+
 nav.pickup{
+
 }
 
 nav.pickup ul{
+	min-height: 34px;
 	list-style-type: none;
+	border-bottom: 1px solid red;
 }
 
 nav.pickup ul li{
@@ -424,7 +423,6 @@ nav.pickup ul li a{
 	display: block;
 	text-indent: -99999px;
 	padding: 18px 85px;
-	border-bottom: 1px solid red;
 }
 
 nav.pickup ul li a.pickup{
@@ -444,6 +442,7 @@ nav.pickup ul li a.news{
 	background-position: top;
 	background-repeat: no-repeat;
 }
+
 nav.pickup ul li a.event{
 	background-image: url('images/exhibition.png');
 	background-position: top;
@@ -452,28 +451,6 @@ nav.pickup ul li a.event{
 
 nav.pickup ul li a:hover{
 	background-position: bottom;
-}
-
-section.container-iframe{
-	background-color: #bcbcbc;
-}
-section.container-iframe ul{
-	margin: 0 auto;
-}
-section.container-iframe li{
-	border-top: 1px dotted #898989;
-}
-
-section.container-iframe li a{
-	display: block;
-	float: right;
-}
-
-section.container-iframe li p{
-	margin-left: 60px;
-}
-section.container-iframe li span{
-	display: block;
 }
 
 /******************* iframe end *******************/
@@ -573,11 +550,45 @@ div.box:hover ul li{
 	-moz-transition: all 600ms;
 }
 
+.navigation-container{
+	margin: 0 auto;
+	direction: inherit;
+	min-height: 32px;
+	background-color: #777;
+}
+
 .navigation{
 	width: 950px;
 	margin: 0 auto;
 	min-height: 32px;
+	padding-top: 1px;
 	direction: inherit;
+	direction: inherit;
+}
+
+nav.navigation ul{
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+nav.navigation ul li{
+	display: block;
+	margin-left: 5px;
+	float: right;
+	border-right: 1px solid #ddd;
+	list-style-type: none;
+}
+
+nav.navigation ul li a{
+	padding: 0 10px;
+	color: #eee;
+	text-decoration: underline;
+}
+
+.copyright-container{
+	margin: 0 auto;
+	direction: inherit;
+	min-height: 105px;
 }
 
 .copyright{
