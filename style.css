@@ -158,45 +158,32 @@ section.slider div.bottons ul li{
 	margin:6px 11px;
 	width: 152px;
 	min-height:117px;
-	opacity: 1;
-}
-
-/*section.slider div.bottons ul li:hover{
-	box-shadow: 0px 0px 5px #444;
-	opacity: 0.7;
-}*/
-
-section.slider div.bottons ul.btns li.img1{
-	background-image: url('images/13329998544218bd7e.JPG');
-	background-repeat: no-repeat;
-	background-position: top;
-}
-section.slider div.bottons ul.btns li.img2{
-	background-image: url('images/132919621334df53ce.JPG');
-	background-repeat: no-repeat;
-	background-position: top;
-}
-
-section.slider div.bottons ul.btns li.img3{
-	background-image: url('images/13291961521ef30c82.JPG');
-	background-repeat: no-repeat;
-	background-position: top;
-}
-
-section.slider div.bottons ul.btns li.img4{
-	background-image: url('images/1314185598f1795cfd.JPG');
-	background-repeat: no-repeat;
-	background-position: top;
-}
-
-section.slider div.bottons ul.btns li.img5{
-	background-image: url('images/1314185536e7dc68a5.JPG');
 	background-repeat: no-repeat;
 	background-position: top;
 }
 
 section.slider div.bottons ul.btns li:hover{
 	background-position: bottom;
+}
+
+section.slider div.bottons ul.btns li.img1{
+	background-image: url('images/13329998544218bd7e.JPG');
+}
+
+section.slider div.bottons ul.btns li.img2{
+	background-image: url('images/132919621334df53ce.JPG');
+}
+
+section.slider div.bottons ul.btns li.img3{
+	background-image: url('images/13291961521ef30c82.JPG');
+}
+
+section.slider div.bottons ul.btns li.img4{
+	background-image: url('images/1314185598f1795cfd.JPG');
+}
+
+section.slider div.bottons ul.btns li.img5{
+	background-image: url('images/1314185536e7dc68a5.JPG');
 }
 /************************************************************* main content **************************************************/
 
