@@ -18,9 +18,6 @@
 	direction: rtl;
 	font-family: Tahoma;
 	font-size: 12px;
-	/*background-image: url('images/background.jpg');
-	background-repeat: no-repeat;
-	background-position: top;*/
 }
 
 .header-container{
@@ -28,12 +25,20 @@
 	direction: inherit;
 }
 
+.header{
+	width: 950px;
+	margin: 0 auto;
+	min-height: 93px;
+	direction: inherit;
+}
+
 .logo{
-	padding: 30px 0;
+	padding: 21px 0;
 }
 .logo a{
+	display: block;
 	margin-right: 540px;
-	
+	min-height: 30px;
 }
 
 .menu-container{
@@ -307,13 +312,6 @@ aside.sidebar-container div.sidebar-small-box div:hover{
 	min-height:400px;
 }
 
-.header{
-	width: 950px;
-	margin: 0 auto;
-	min-height: 93px;
-	direction: inherit;
-}
-
 .menu{
 	width: 950px;
 	margin: 0 auto;
@@ -511,7 +509,6 @@ div.box ul{
 
 div.box:hover ul{
 	height: 130px;
-	overflow: visible;
 	-webkit-transition: all 600ms;
 	-ms-transition: all 600ms;
 	-o-transition: all 600ms;
