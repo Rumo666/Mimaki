@@ -122,11 +122,13 @@ aside.left-nav{
 	width: 240px;
 }
 aside.left-nav ul{
-	list-style-type: none;
+	list-style: url('images/arrow.jpg');
+
 	background-color: rgb(187,187,187);
 }
 aside.left-nav li{
-	
+	list-style-image: url('images/arrow.jpg');
+
 	background-repeat:no-repeat;
 	display: block;
 
@@ -141,11 +143,15 @@ aside.left-nav li h1{
 	
 }
 aside.left-nav li ul{
+	direction: ltr;
 	width:230px;
 	background-color: white;
 	overflow: hidden;
 	height: 0px;
 	margin: 0 auto;
+
+	
+
 
 	-webkit-transition:all 600ms;	
 	
@@ -385,6 +391,7 @@ section.contact{
 	min-height: 700px;
 	margin-left: 270px;
 }
+
 div.formheader{
 	width:680px;
 	min-height:30px;
@@ -408,6 +415,7 @@ div.contactfield div.w4{
 }
 div.contactfield div.ml4{
 	min-height: 25px;
+
 }
 
 div.contactfield div.name,div.state,div.category,div.address,div.country,div.question{
@@ -416,7 +424,7 @@ div.contactfield div.name,div.state,div.category,div.address,div.country,div.que
 }
 div.contactfield select,input{
 	float: left;
-	margin:4px 3px;
+	margin:0px 3px;
 }
 div.contactfield textarea{
 	width: 680px;
@@ -425,6 +433,76 @@ div.contactfield span{
 	margin-right:13px;
 	font-family:Tahoma;
 }
+
+/************************* ACC articles ***********************/
+
+div.accmain-container{
+	margin:0 auto;
+	width: 680px;
+	min-height:300px;
+
+}
+
+
+
+h3.supheader{
+	background-image: url('images/h3.gif');
+	background-repeat:no-repeat;
+	background-position: 0 -40px;
+	padding:5px 10px 5px 10px;
+	width: 100px;
+	min-height: 20px;
+	font-family:Tahoma;
+	margin-bottom: 20px;
+
+}
+
+div.acc-container{
+	width:680px;
+	min-height:400px;
+
+}
+
+h3.selector{
+	background-image: url('images/bg-supply_cat1.gif');
+	padding:9px 10px 9px 20px;
+}
+
+div.acc-container ul{
+	list-style-type: none;
+	height:0px;
+	width:680px;
+	background-color: gray;
+	overflow: hidden;
+}
+div.acc-container ul li{
+	min-height:100px;
+	display: block;
+	background-color: darkgray;
+	width:680px;
+	margin-bottom:20px;
+}
+h3.selector2{
+	background-image: url('images/bg-supply_cat1.gif');
+	padding:9px 10px 9px 20px;
+}
+h3.selector1{
+	background-image: url('images/bg-supply_cat1.gif');
+	padding:9px 10px 9px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
