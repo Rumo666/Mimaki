@@ -1,18 +1,12 @@
-var maximise,target,nextslide;
+var maximise,target,nextSlide;
 
 
-maximise = document.getElementById('ass');
-target =   document.getElementById('ss');
 
-nextslide = function (){
+nextSlide = function (){
 
-	target.style.height='200px;'
+ document.getElementsByClassName('accmain-container').item(0).getElementsByClassName('acc-container').item(0).getElementsByTagName('ul').style.height='200px';
 
 };
 
-
-maximise.onclick=function (){
-	nextslide();
-};
 
 

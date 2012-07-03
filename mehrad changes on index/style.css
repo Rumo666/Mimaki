@@ -470,6 +470,7 @@ h3.selector{
 
 div.acc-container ul{
 	list-style-type: none;
+	height:10px;
 	
 	width:680px;
 	background-color: gray;
@@ -492,9 +493,6 @@ h3.selector1{
 }
 
 
-ul#ss{
-	height:10px;
-}
 
 
 
