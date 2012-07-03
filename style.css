@@ -1,6 +1,6 @@
-/**{
+*{
 	outline: 1px dashed red;
-}*/
+}
 
 .clear{
 	clear:both;
@@ -28,17 +28,14 @@
 .header{
 	width: 950px;
 	margin: 0 auto;
-	min-height: 93px;
+	min-height: 100px;
 	direction: inherit;
 }
 
-.logo{
-	padding: 21px 0;
-}
 .logo a{
 	display: block;
-	margin-right: 540px;
-	min-height: 30px;
+	margin-left: 459px;
+	min-height: 100px;
 }
 
 .menu-container{
@@ -127,6 +124,10 @@ section.slider div.bottons div.next{
 	background-position: top;
 }
 
+section.slider div.bottons div.next:hover{
+	background-position: bottom;
+}
+
 section.slider div.bottons div.prv{
 	min-height:40px;
 	margin-top: 45px;
@@ -134,6 +135,10 @@ section.slider div.bottons div.prv{
 	background-image: url('images/prev.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
+}
+
+section.slider div.bottons div.prv:hover{
+	background-position: bottom;
 }
 
 section.slider div.bottons div.arrows{
@@ -242,10 +247,10 @@ aside.sidebar-container section{
 	background-position: top;
 	min-height: 60px;
 	opacity: 1;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 aside.sidebar-container section.inkjet{
@@ -277,10 +282,10 @@ aside.sidebar-container div.sidebar-small-box div{
 	opacity: 0.6;
 	background-repeat: no-repeat;
 	background-position: top;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 aside.sidebar-container div.sidebar-small-box a{
@@ -301,10 +306,10 @@ aside.sidebar-container div.sidebar-small-box div.small-box-2{
 
 aside.sidebar-container div.sidebar-small-box div:hover{
 	opacity: 1;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 .content{
@@ -371,8 +376,8 @@ nav.menu ul li:hover a{
 }
 
 .content-body{
-	min-height:400px;
-	padding: 0px 25px 15px 5px;
+	min-height: 400px;
+	padding: 0px 22px 15px 0px;
 }
 
 /******************* iframe ***********************/
@@ -381,7 +386,7 @@ section.pickup{
 }
 
 section.pickup iframe.iframe{
-	width: 680px;
+	width: 686px;
 	min-height: 429px;
 }
 
@@ -396,7 +401,8 @@ nav.pickup ul{
 }
 
 nav.pickup ul li{
-	float:right;
+	margin-left: 2px;
+	float: right;
 }
 
 nav.pickup ul li a{
@@ -408,27 +414,24 @@ nav.pickup ul li a{
 }
 
 nav.pickup ul li a.pickup{
-	background-image: url('images/exhibition.png');
 	background-position: top;
 	background-repeat: no-repeat;
+}
+
+nav.pickup ul li a.pickup{
+	background-image: url('images/exhibition.png');
 }
 
 nav.pickup ul li a.product{
-	background-image: url('images/exhibition.png');
-	background-position: top;
-	background-repeat: no-repeat;
+	background-image: url('images/FAQ.png');
 }
 
 nav.pickup ul li a.news{
-	background-image: url('images/exhibition.png');
-	background-position: top;
-	background-repeat: no-repeat;
+	background-image: url('images/manual.png');
 }
 
 nav.pickup ul li a.event{
-	background-image: url('images/exhibition.png');
-	background-position: top;
-	background-repeat: no-repeat;
+	background-image: url('images/movie.png');
 }
 
 nav.pickup ul li a:hover{
@@ -436,6 +439,26 @@ nav.pickup ul li a:hover{
 }
 
 /******************* iframe end *******************/
+.product-detail{
+	min-height: 400px;
+	padding: 0px 22px 15px 0px;
+	background-image: url('images/11.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+div.product-detail nav.product-detail-anchors ul{
+	
+}
+
+div.product-detail nav.product-detail-anchors ul li{
+	float: right;
+	
+}
+
+div.product-detail nav.product-detail-anchors ul li a{
+	
+}
 
 .content-boxes{
 	padding: 0px 15px 35px 0px;
@@ -459,10 +482,10 @@ div.box section.sign-graphic{
 	background-position: top;
 	background-repeat: no-repeat;
 	opacity: 1;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 div.box section.industrial-products{
@@ -471,10 +494,10 @@ div.box section.industrial-products{
 	background-position: top;
 	background-repeat: no-repeat;
 	opacity: 1;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 div.box section.textile-apparel{
@@ -483,52 +506,52 @@ div.box section.textile-apparel{
 	background-position: top;
 	background-repeat: no-repeat;
 	opacity: 1;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 div.box:hover section{
 	opacity: 0.7;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 div.box ul{
 	height: 0;
 	overflow: hidden;
 	padding: 0 5px 5px 5px;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 div.box:hover ul{
 	height: 130px;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 div.box ul li{
 	padding: 5px 0;
 	opacity: 0;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 div.box:hover ul li{
 	opacity: 1;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 .navigation-container{
@@ -566,19 +589,19 @@ nav.navigation div.nav-items ul li a{
 	padding: 0 10px;
 	color: #eee;
 	text-decoration: none;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 nav.navigation div.nav-items ul li:hover a{
 	color: #fff;
 	text-decoration: underline;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 .copyright-container{
@@ -605,16 +628,16 @@ footer.copyright section.copyright-text a{
 	text-align: inherit;
 	text-decoration: none;
 	color: #880;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 footer.copyright section.copyright-text a:hover{
 	color: #eb0;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
