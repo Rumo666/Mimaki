@@ -1,8 +1,8 @@
-maximise = document.getElementsById('ass');
-target=document.getElementsByClassName('acc-container').item(0).getElementsByTagName('ul');
+maximise = document.getElementById('ass');
+target =   document.getElementById('ss');
 
-maximise.onClick = target.style.height= '200px';
-
-
+maximise.onclick=function (){
+	target.style.height ='200px';
+};
 
 
