@@ -1,13 +1,7 @@
+maximise = document.getElementsById('ass');
+target=document.getElementsByClassName('acc-container').item(0).getElementsByTagName('ul');
 
- maximize=function (){
-	document.getElementsByClassName('ass').style.height='200px';
-
-
-
-};
-
-
-
+maximise.onClick = target.style.height= '200px';
 
 
 
