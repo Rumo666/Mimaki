@@ -4,7 +4,7 @@ var maximise,target,nextSlide;
 
 nextSlide = function (){
 
- getElementsByClassName('acc-container').item(0).getElementsByClassName("acdc").style.height='200px';
+ var maximise =document.getElementsByClassName('acc-container').item().getElementsByClassName('acdc').item().style.height='200px';
 
 };
 
