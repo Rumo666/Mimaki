@@ -293,7 +293,7 @@ aside.sidebar-container div.sidebar-small-box a{
 	color: white;
 	display: block;
 	text-indent: -99999px;
-	padding: 28px 120px;
+	padding: 34px 120px;
 }
 
 aside.sidebar-container div.sidebar-small-box div.small-box-1{
@@ -441,23 +441,33 @@ nav.pickup ul li a:hover{
 /******************* iframe end *******************/
 .product-detail{
 	min-height: 400px;
-	padding: 0px 22px 15px 0px;
 	background-image: url('images/11.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
 }
 
 div.product-detail nav.product-detail-anchors ul{
-	
+	direction: inherit;
+	list-style-type: none;
 }
 
 div.product-detail nav.product-detail-anchors ul li{
 	float: right;
-	
+	direction: inherit;
+	border-right: 1px solid white;
+	border-left: 1px solid #CCC;
 }
 
 div.product-detail nav.product-detail-anchors ul li a{
-	
+	margin-left: 1px;
+	padding: 19px 20px;
+	text-decoration: none;
+	font-family: inherit;
+	font-size: 13px;
+	text-shadow: 0 1px white;
+	font-weight: bold;
+	display: block;
+	color: #666;
 }
 
 .content-boxes{
