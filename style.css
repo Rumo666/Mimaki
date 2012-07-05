@@ -448,28 +448,56 @@ nav.pickup ul li a:hover{
 
 div.product-detail nav.product-detail-anchors ul{
 	direction: inherit;
-	list-style-type: none;
+	height: 50px;
 }
 
 div.product-detail nav.product-detail-anchors ul li{
+	width: 123px;
+	display: block;
 	float: right;
 	direction: inherit;
-	border-right: 1px solid white;
-	border-left: 1px solid #CCC;
+	list-style-type: none;
+	background-image: url('images/product_menu.jpg');
+	background-repeat: no-repeat;
+	background-position: -2px top;
+	margin-left: 1px;
+	height: 51px;
+}
+
+div.product-detail nav.product-detail-anchors ul li:hover{
+	background-position: -2px bottom;
+}
+
+div.product-detail nav.product-detail-anchors ul li.up{
+	width: 66px;
+	background-position: -126px top;
+}
+
+div.product-detail nav.product-detail-anchors ul li.up:hover{
+	width: 66px;
+	background-position: -126px bottom;
 }
 
 div.product-detail nav.product-detail-anchors ul li a{
-	margin-left: 1px;
-	padding: 19px 20px;
-	text-decoration: none;
-	font-family: inherit;
-	font-size: 13px;
-	text-shadow: 0 1px white;
-	font-weight: bold;
 	display: block;
+	padding: 19px 16px;
+	font-family: inherit;
+	font-size: 12px;
+	font-weight: bold;
 	color: #666;
+	text-shadow: 0 1px white;
+	text-decoration: none;
 }
 
+div.product-detail nav.product-detail-anchors ul li:hover a{
+	color: #eee;
+	text-shadow: 0 1px #666;
+}
+
+div.product-detail nav.product-detail-anchors ul li.up a{
+	padding: 25px 16px;
+}
+/*********************************************************************/
 .content-boxes{
 	padding: 0px 15px 35px 0px;
 	direction: inherit;
