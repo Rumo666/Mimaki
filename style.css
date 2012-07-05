@@ -54,6 +54,21 @@
 	direction: inherit;
 	margin: 0 auto;
 }
+
+.page-title-container{
+	background-image: url('images/page-title-bg.png');
+	background-position: top;
+	background-repeat: repeat-x;
+	direction: inherit;
+	margin: 0 auto;
+}
+
+section.page-title{
+	width: 950px;
+	margin: 0 auto;
+	min-height: 65px;
+	direction: inherit;
+}
 /********* slider*********/
 section.slider{
 	width: 950px;
