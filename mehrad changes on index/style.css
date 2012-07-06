@@ -4,16 +4,6 @@
 span{
 	display: inline;
 }
-.clear{
-	clear:both;
-	width: 0;
-	height: 0;
-	min-height: 0;
-	min-width: 0;
-	border: 0 none;
-	padding: 0;
-	margin: 0;
-}
 
 
 .main-container{
@@ -95,6 +85,7 @@ span{
 	margin: 0 auto;
 	min-height: 422px;
 	direction: inherit;
+	padding-top:1px;
 }
 
 .boxes{
@@ -120,6 +111,7 @@ span{
 aside.left-nav{
 	min-height:200px;
 	width: 240px;
+	
 }
 aside.left-nav ul{
 	list-style: url('images/arrow.jpg');
@@ -139,7 +131,7 @@ aside.left-nav li h1{
 	height:60px;
 	width:240px;
 	
-	color:red;	
+	color:transparent;	
 	
 }
 aside.left-nav li ul{
@@ -493,7 +485,90 @@ h3.selector1{
 }
 
 
+/*************************** download *************************************/
 
+
+section.download{
+
+	width: 680px;
+	min-height: 200px;
+	margin-left: 270px;
+}
+
+div.product-download{
+	width: 680px;
+	min-height:100px;
+}
+
+div.product-info{
+	width:680px;
+	height:70px;
+	padding-top:20px;
+}
+div.product-info div.pro-name{
+	width: 680px;
+	background-image: url('images/h3_list.gif');
+	height:34px;
+	position: relative;
+	border-right:1px solid #999;
+}
+div.product-info div.pro-img{
+	background-image: url('images/thumb.jpg');
+	height:70px;
+	width:85px;
+	position: absolute;
+	top:10px;
+	left:820px;
+	border:1px solid gray;
+	box-shadow:0px 0px 5px #444;
+}
+div.profile-download{
+	background-color: #ddd;
+	width:670px;
+	padding: 20px 0px 20px 10px;
+	border-bottom:0px dotted #666;
+}
+
+div.driver-download{
+	background-image: url('images/productchooser_texture.jpg');
+	width:670px;
+	padding: 20px 0px 20px 10px;
+	border-bottom:0px dotted #666;
+
+}
+div.software-download{
+	background-color: #ddd;
+	width:670px;
+	padding: 20px 0px 20px 10px;
+	border-bottom:0px dotted #666;
+
+}
+
+div.product-download h4{
+	font-family: Tahoma;
+	font-size: 17px;
+	color: #555;
+	float: left;
+
+}
+div.product-download div.download-link{
+	background-image:url('images/Download-icon.png');
+	width:48px;
+	height: 48px;
+	margin-left:600px;
+}
+div.profile-download:hover{
+	box-shadow: 0px 0px 5px #333;
+}
+
+div.driver-download:hover{
+	box-shadow: 0px 0px 5px #333;
+}
+
+div.software-download:hover{
+	box-shadow: 0px 0px 5px #333;
+	color:black;
+}
 
 
 

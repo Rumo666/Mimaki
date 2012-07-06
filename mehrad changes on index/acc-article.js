@@ -1,5 +1,5 @@
 var maximise,target,nextSlide;
-var target =document.getElementsByClassName('acc-container').item().getElementsByTagName('h3');
+ target =document.getElementsByClassName('acc-container').item().getElementsByTagName('h3');
 
 
 
