@@ -498,6 +498,7 @@ h3.selector1{
 
 
 section.download{
+
 	width:680px;
 	min-height: 200px;
 	margin-left: 270px;
@@ -510,16 +511,26 @@ div.product-download{
 
 div.product-info{
 	width:680px;
+	height:70px;
+	padding-top:20px;
 }
 div.product-info div.pro-name{
 	width: 680px;
-	background-image: url('images/bg-supply_cat1.gif');
+	background-image: url('images/h3_list.gif');
 	height:34px;
-	
+	position: relative;
+	border-right:1px solid #999;
 }
-
-
-
+div.product-info div.pro-img{
+	background-image: url('images/thumb.jpg');
+	height:70px;
+	width:85px;
+	position: absolute;
+	top:10px;
+	left:820px;
+	border:1px solid gray;
+	box-shadow:0px 0px 5px #444;
+}
 
 
 
