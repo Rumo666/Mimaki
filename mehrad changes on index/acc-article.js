@@ -14,9 +14,9 @@ nextSlide =function (){
 
 };
 for(var i=0;i<3;i++){
-		(function(j){
-			target.item(j).onclick=function(){
-				nextSlide(j);
+		(function(i){
+			target.item(i).onclick=function(){
+				nextSlide(i);
 			}
 		})(i);
 	}
