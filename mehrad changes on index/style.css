@@ -506,11 +506,17 @@ section.download{
 div.product-download{
 	width: 680px;
 	min-height:100px;
-
 }
 
-
-
+div.product-info{
+	width:680px;
+}
+div.product-info div.pro-name{
+	width: 680px;
+	background-image: url('images/bg-supply_cat1.gif');
+	height:34px;
+	
+}
 
 
 
