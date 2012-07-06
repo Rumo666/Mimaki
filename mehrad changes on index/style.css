@@ -1,5 +1,5 @@
 *{
-	outline: 0px dashed red;
+	outline: 1px dashed red;
 }
 span{
 	display: inline;
@@ -120,6 +120,7 @@ span{
 aside.left-nav{
 	min-height:200px;
 	width: 240px;
+	float: left;
 }
 aside.left-nav ul{
 	list-style: url('images/arrow.jpg');
@@ -493,7 +494,20 @@ h3.selector1{
 }
 
 
+/*************************** download *************************************/
 
+
+section.download{
+	width:680px;
+	min-height: 200px;
+	margin-left: 270px;
+}
+
+div.product-download{
+	width: 680px;
+	min-height:100px;
+
+}
 
 
 

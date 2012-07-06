@@ -1,5 +1,5 @@
 var maximise,target,nextSlide;
-var target =document.getElementsByClassName('acc-container').item().getElementsByTagName('h3');
+ target =document.getElementsByClassName('acc-container').item().getElementsByTagName('h3');
 
 
 
@@ -14,9 +14,9 @@ nextSlide =function (){
 
 };
 for(var i=0;i<3;i++){
-		(function(i){
-			target.item(i).onclick=function(){
-				nextSlide(i);
+		(function(j){
+			target.item(j).onclick=function(){
+				nextSlide(j);
 			}
 		})(i);
 	}
