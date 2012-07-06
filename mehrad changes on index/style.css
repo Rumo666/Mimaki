@@ -4,16 +4,6 @@
 span{
 	display: inline;
 }
-.clear{
-	clear:both;
-	width: 0;
-	height: 0;
-	min-height: 0;
-	min-width: 0;
-	border: 0 none;
-	padding: 0;
-	margin: 0;
-}
 
 
 .main-container{
@@ -95,6 +85,7 @@ span{
 	margin: 0 auto;
 	min-height: 422px;
 	direction: inherit;
+	padding-top:1px;
 }
 
 .boxes{
@@ -120,7 +111,7 @@ span{
 aside.left-nav{
 	min-height:200px;
 	width: 240px;
-	float: left;
+	
 }
 aside.left-nav ul{
 	list-style: url('images/arrow.jpg');
@@ -499,7 +490,7 @@ h3.selector1{
 
 section.download{
 
-	width:680px;
+	width: 680px;
 	min-height: 200px;
 	margin-left: 270px;
 }
@@ -531,6 +522,47 @@ div.product-info div.pro-img{
 	border:1px solid gray;
 	box-shadow:0px 0px 5px #444;
 }
+div.profile-download{
+	background-color: #ddd;
+	width:680px;
+	min-height:100px;
+	padding: 50px;
+}
+
+div.driver-download{
+	background-image: url('images/productchooser_texture.jpg');
+	width:680px;
+	min-height:100px;
+	padding: 50px;
+}
+div.software-download{
+	background-color: #ddd;
+	width:680px;
+	min-height:100px;
+	padding-top:1px;
+	padding: 50px;
+}
+
+div.product-download h4{
+	font-family: Tahoma;
+	font-size: 17px;
+	
+	float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
