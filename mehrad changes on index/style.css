@@ -1,5 +1,5 @@
 *{
-	outline: 1px dashed red;
+	outline: 0px dashed red;
 }
 span{
 	display: inline;
@@ -524,33 +524,39 @@ div.product-info div.pro-img{
 }
 div.profile-download{
 	background-color: #ddd;
-	width:680px;
-	min-height:100px;
-	padding: 50px;
+	width:670px;
+	padding: 20px 0px 20px 10px;
+	border-bottom:1px dashed #444;
 }
 
 div.driver-download{
 	background-image: url('images/productchooser_texture.jpg');
-	width:680px;
-	min-height:100px;
-	padding: 50px;
+	width:670px;
+	padding: 20px 0px 20px 10px;
+	border-bottom:1px dashed #444;
+
 }
 div.software-download{
 	background-color: #ddd;
-	width:680px;
-	min-height:100px;
-	padding-top:1px;
-	padding: 50px;
+	width:670px;
+	padding: 20px 0px 20px 10px;
+	border-bottom:1px dashed #444;
+
 }
 
 div.product-download h4{
 	font-family: Tahoma;
 	font-size: 17px;
-	
+	color: #555;
 	float: left;
 
 }
-
+div.product-download div.download-link{
+	background-image:url('images/Download-icon.png');
+	width:48px;
+	height: 48px;
+	margin-left:600px;
+}
 
 
 
