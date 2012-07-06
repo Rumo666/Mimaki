@@ -131,7 +131,7 @@ aside.left-nav li h1{
 	height:60px;
 	width:240px;
 	
-	color:red;	
+	color:transparent;	
 	
 }
 aside.left-nav li ul{
@@ -526,21 +526,21 @@ div.profile-download{
 	background-color: #ddd;
 	width:670px;
 	padding: 20px 0px 20px 10px;
-	border-bottom:1px dashed #444;
+	border-bottom:0px dotted #666;
 }
 
 div.driver-download{
 	background-image: url('images/productchooser_texture.jpg');
 	width:670px;
 	padding: 20px 0px 20px 10px;
-	border-bottom:1px dashed #444;
+	border-bottom:0px dotted #666;
 
 }
 div.software-download{
 	background-color: #ddd;
 	width:670px;
 	padding: 20px 0px 20px 10px;
-	border-bottom:1px dashed #444;
+	border-bottom:0px dotted #666;
 
 }
 
@@ -557,12 +557,18 @@ div.product-download div.download-link{
 	height: 48px;
 	margin-left:600px;
 }
+div.profile-download:hover{
+	box-shadow: 0px 0px 5px #333;
+}
 
+div.driver-download:hover{
+	box-shadow: 0px 0px 5px #333;
+}
 
-
-
-
-
+div.software-download:hover{
+	box-shadow: 0px 0px 5px #333;
+	color:black;
+}
 
 
 
