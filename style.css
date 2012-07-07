@@ -235,7 +235,7 @@ aside.sidebar-container{
 
 aside.sidebar-container ul{
 	list-style-type: none;
-	background-color: rgb(187,187,187);
+	background-color: #bbb;
 	background-image:url('images/l_nav_bg.gif');
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -253,19 +253,50 @@ aside.sidebar-container li section{
 
 aside.sidebar-container li ul{
 	width:230px;
-	background-color: white;
+	background-color: #eee;
 	overflow: hidden;
 	height: 0px;
 	margin: 0 5px 5px 5px;
 	-webkit-transition:all 600ms;	
 }
 
+aside.sidebar-container li ul div{
+	background-color: #fff;
+}
+
 aside.sidebar-container li:hover ul{
-	height: 200px;
+	min-height: 200px;
 }
 
 aside.sidebar-container li li{
-	padding:10px 0;
+	padding:7px 5px;
+}
+
+aside.sidebar-container li li a{
+	padding:0 15px;
+	font-family: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	color: #555;
+	background-image: url('images/arrow.png');
+	background-repeat: no-repeat;
+	background-position: right 3px;
+}
+
+aside.sidebar-container li ul div span{
+	display: block;
+	padding:5px 10px;
+}
+
+aside.sidebar-container li ul div span a{
+	padding:0 15px;
+	font-family: inherit;
+	font-size: 11px;
+	text-decoration: none;
+	color: #777;
+	background-image: url('images/sub-arrow.png');
+	background-repeat: no-repeat;
+	background-position: right 3px;
 }
 
 aside.sidebar-container section{
@@ -319,7 +350,7 @@ aside.sidebar-container div.sidebar-small-box a{
 	color: white;
 	display: block;
 	text-indent: -99999px;
-	padding: 34px 120px;
+	padding: 30px 120px;
 }
 
 aside.sidebar-container div.sidebar-small-box div.small-box-1{
@@ -372,7 +403,7 @@ nav.menu ul li:hover{
 
 nav.menu ul li a{
 	display: block;
-	padding: 13px 35px;
+	padding: 13px 41px;
 	font-family: inherit;
 	font-size: 13px;
 	font-weight: bold;
