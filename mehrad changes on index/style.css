@@ -395,33 +395,33 @@ div.formheader{
 	margin-bottom: 20px;
 
 }
-div.contactfield{
+form.contactfield{
 	min-height:500px;
 	width:680px;
 	
 }
-div.contactfield div.w4{
-	min-height:25px;
+form.contactfield div.w4{
+	min-height:10px;
 	background-color: #c9c9c9;
 	outline:1px solid white;
 }
-div.contactfield div.ml4{
-	min-height: 25px;
+form.contactfield div.ml4{
+	min-height:10px;
 
 }
 
-div.contactfield div.name,div.state,div.category,div.address,div.country,div.question{
+form.contactfield div.name,div.state,div.category,div.address,div.country,div.question,div.contactinfo{
 	width:680px;
-	min-height:25px;
+	padding:5px 0px 5px 0px;
 }
-div.contactfield select,input{
+form.contactfield select,input{
 	float: left;
 	margin:0px 3px;
 }
-div.contactfield textarea{
+form.contactfield textarea{
 	width: 680px;
 }
-div.contactfield span{
+form.contactfield span{
 	margin-right:13px;
 	font-family:Tahoma;
 }

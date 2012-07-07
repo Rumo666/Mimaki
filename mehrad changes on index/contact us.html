@@ -28,14 +28,12 @@
 				</ul>
 		</aside>
 		<section class="contact">
-			<div class="formheader">
-				
-			</div>
-			<div class="contactfield">
+			<div class="formheader"></div>
+			<form action="mailer.php" method="POST" class="contactfield">
 				<div class="category">
 					<div class="left w4 last"><span>category</span></div>
 					<div class="ml4"> 
-						<select>
+						<select name="drop_down">
 							<option value="iechizi" name="iechizi">- - - -</option>
 							
 							<option value="iechizi" name="iechizi">iphone 3gs</option>
@@ -70,22 +68,46 @@
 				</div>
 				<div class="name">
 					<div class="left w4 last"><span>name</span></div>
-					<div class="ml4"><input type="text" palceholer="" /></div>
+					<div class="ml4"><input type="text" palceholer="your name" name="name" /></div>
 				</div>
 				<div class="contactinfo">
 					<div class="left w4 last"><span>contanctinfo</span></div>
-					<div class="ml4"><input type="text" palceholer="" /></div>
+					<div class="ml4"><input type="text" palceholer="E-mail" name="email" /></div>
 				</div>
 				<div class="question">
-					<textarea name="question" width="100%"></textarea>
+					<textarea name="message" width="100%"></textarea>
 				</div>
 				<div class="sunbmit">
-					<input type="submit" value="send" />
+					<input type="submit" name="submit" value="send" />
 					<input type="reset" />
 				</div>
-			</div>
+			</form>
 		</section>
 
 	</div>
+	<?php
+if(isset($_POST['submit'])) {
+ 
+$to = "you@you.com";
+$subject = "Form Tutorial";
+$name_field = $_POST['name'];
+$email_field = $_POST['email'];
+$message = $_POST['message'];
+
+$dropdown = $_POST['drop_down'];
+ 
+foreach($_POST['check'] as $value) {
+$check_msg .= "Checked: $value\n";
+}
+ 
+$body = "From: $name_field\n E-Mail: $email_field\n $check_msg Option: $option\n Drop-Down: $dropdown\n Message:\n $message\n";
+ 
+echo "Data has been submitted to $to!";
+mail($to, $subject, $body);
+ 
+} else {
+echo "blarg!";
+}
+?>
 </body>
 </html>
