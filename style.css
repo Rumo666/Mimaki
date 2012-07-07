@@ -754,7 +754,7 @@ nav.navigation div.nav-items{
 nav.navigation div.nav-items ul li{
 	display: block;
 	margin-right: 5px;
-	float: left;
+	float: right;
 	border-left: 1px solid #ddd;
 	list-style-type: none;
 }
@@ -797,6 +797,10 @@ footer.copyright section.copyright-text p{
 	color: #555;
 }
 
+footer.copyright section.copyright-text p b{
+	font-weight: bold;
+}
+
 footer.copyright section.copyright-text a{
 	direction: inherit;
 	text-align: inherit;
@@ -814,9 +818,4 @@ footer.copyright section.copyright-text a:hover{
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
 	-moz-transition: all 400ms;
-}
-
-footer.copyright section.html5-logo{
-	direction: inherit;
-	padding-top: 15px;
 }
