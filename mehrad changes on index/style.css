@@ -581,21 +581,31 @@ section.download-main{
 }
 
 div.each-download{
-	width: 680px;
+	width: 685px;
 	min-height:87px;
 	background-color: #ccc;
+	overflow: hidden;
 }
 
 div.pro-image{
 	width:135px;
 	min-height: 87px;
 	float: left;
-	border-right:1px solid #acacac
+	border-right:1px solid #acacac;
+	margin-right: 10px;
+	-webkit-transition:all 400ms;
 }
+
+div.pro-image:hover{
+	-webkit-transform : scale(1.1,1.1);
+}
+
 div.pro-inf{
 	float: left;
 	width:165px ;
 	padding:33px 10px;
+border-right:1px solid #acacac;
+
 }
 
 div.pro-inf p{
@@ -606,7 +616,7 @@ div.pro-inf p{
 }
 div.pro-downloads{
 	margin-left: 380px;
-	padding:20px 20px;
+	padding:19px 20px;
 }
 
 div.pro-downloads div{
@@ -615,11 +625,12 @@ div.pro-downloads div{
 	width:48px;
 	height:48px;
 	margin-right: 20px;
-
+	border-radius: 3px;
 }
 
 div.pro-downloads div:hover{
 	background-image:url('images/green-document-download-icon.png');
+	-webkit-box-shadow: 0 0 5px #444;
 }
 
 div.pro-downloads div.software{
