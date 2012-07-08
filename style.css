@@ -633,7 +633,7 @@ div.product-detail div.product-body section.product-detail-text table.specificat
 }
 
 
-/*********************************************************************/
+/***********************************BOXES***************************/
 .content-boxes{
 	padding: 0px 15px 35px 0px;
 	direction: inherit;
@@ -648,6 +648,46 @@ div.box{
 	background-image: url('images/box_bg.png');
 	background-position: bottom;
 	background-repeat: no-repeat;
+}
+
+div.box ul{
+	padding: 10px 0;
+}
+
+div.box ul li{
+	background-image: url('images/arrow.png');
+	background-repeat: no-repeat;
+	background-position: right 8px;
+	border-bottom: 1px dashed #888;
+}
+
+div.box ul li a{
+	display: block;
+	padding-right: 15px;
+	font-family: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	color: #555;
+}
+
+div.box ul div{
+}
+
+div.box ul div span{
+	display: block;
+	margin-right: 10px;
+}
+
+div.box ul div span a{
+	display: block;
+	padding:5px 15px 5px 5px;
+	font-family: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	background-image: url('images/sub-arrow.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	color: #555;
 }
 
 div.box section.sign-graphic{
