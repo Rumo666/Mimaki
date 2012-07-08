@@ -8,6 +8,9 @@ span{
 .left{
 	float: left;
 }
+.right{
+	float: right;
+}
 .main-container{
 	margin: 0 auto;
 	direction: ltr;
@@ -583,8 +586,18 @@ section.download-main{
 div.each-download{
 	width: 685px;
 	min-height:87px;
-	background-color: #ccc;
+	background-image: url('images/productchooser_texture.jpg');
 	overflow: hidden;
+	margin-bottom: 20px;
+	border:1px solid black;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 5px #555;
+
+}
+
+div.each-download:hover{
+	box-shadow: 0px 0px 5px #444;
+
 }
 
 div.pro-image{
@@ -604,19 +617,25 @@ div.pro-inf{
 	float: left;
 	width:165px ;
 	padding:33px 10px;
-border-right:1px solid #acacac;
+	border-right:1px solid #acacac;
 
 }
 
-div.pro-inf p{
+div.pro-inf a{
 	color: #222;
 	font-family: Tahoma;
 	font-size: 20px;
-
+	text-decoration: none;
+	-webkit-transition: all 400ms;
 }
+
+div.pro-inf a:hover{
+	color: #555;
+}
+
 div.pro-downloads{
 	margin-left: 380px;
-	padding:19px 20px;
+	padding:19px 5px 19px 20px;
 }
 
 div.pro-downloads div{
@@ -624,17 +643,17 @@ div.pro-downloads div{
 	background-repeat: no-repeat;
 	width:48px;
 	height:48px;
-	margin-right: 20px;
+	margin-right: 10px;
 	border-radius: 3px;
 }
 
 div.pro-downloads div:hover{
 	background-image:url('images/green-document-download-icon.png');
-	-webkit-box-shadow: 0 0 5px #444;
+	-webkit-box-shadow: 0 0 5px #777;
 }
 
 div.pro-downloads div.software{
-	margin-left: 136px;
+	margin-left: 105px;
 }
 
 
