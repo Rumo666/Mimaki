@@ -5,7 +5,9 @@ span{
 	display: inline;
 }
 
-
+.left{
+	float: left;
+}
 .main-container{
 	margin: 0 auto;
 	direction: ltr;
@@ -569,6 +571,64 @@ div.software-download:hover{
 	box-shadow: 0px 0px 5px #333;
 	color:black;
 }
+
+/************************* download-new *********************************/
+
+section.download-main{
+	width: 680px;
+	min-height: 300px;
+	margin-left: 270px;
+}
+
+div.each-download{
+	width: 680px;
+	min-height:87px;
+	background-color: #ccc;
+}
+
+div.pro-image{
+	width:135px;
+	min-height: 87px;
+	float: left;
+	border-right:1px solid #acacac
+}
+div.pro-inf{
+	float: left;
+	width:165px ;
+	padding:33px 10px;
+}
+
+div.pro-inf p{
+	color: #222;
+	font-family: Tahoma;
+	font-size: 20px;
+
+}
+div.pro-downloads{
+	margin-left: 380px;
+	padding:20px 20px;
+}
+
+div.pro-downloads div{
+	background-image: url('images/blue-document-download-icon.png');
+	background-repeat: no-repeat;
+	width:48px;
+	height:48px;
+	margin-right: 20px;
+
+}
+
+div.pro-downloads div:hover{
+	background-image:url('images/green-document-download-icon.png');
+}
+
+div.pro-downloads div.software{
+	margin-left: 136px;
+}
+
+
+
+
 
 
 
