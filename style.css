@@ -1,5 +1,5 @@
 *{
-	outline: 1px dashed red;
+	/*outline: 1px dashed red;*/
 }
 
 .clear{
@@ -138,7 +138,6 @@ section.slider div.bottons{
 	padding-top:1px;
 	position: absolute;
 	top:296px;
-	background-color: 
 }
 
 section.slider div.bottons div.next{
@@ -403,7 +402,7 @@ nav.menu ul li:hover{
 
 nav.menu ul li a{
 	display: block;
-	padding: 13px 41px;
+	padding: 13px 30px;
 	font-family: inherit;
 	font-size: 13px;
 	font-weight: bold;
@@ -442,9 +441,14 @@ section.pickup{
 	min-height: 466px;
 }
 
-section.pickup iframe.iframe{
-	width: 686px;
+section.pickup iframe.index-iframe{
+	width: 688px;
 	min-height: 429px;
+}
+
+section.pickup iframe.article-holder-iframe{
+	width: 688px;
+	min-height: 2484px;
 }
 
 nav.pickup{
@@ -496,141 +500,6 @@ nav.pickup ul li a:hover{
 }
 
 /******************* iframe end *******************/
-.product-detail{
-	min-height: 400px;
-	background-image: url('images/11.jpg');
-	background-repeat: no-repeat;
-	background-position: top;
-}
-
-div.product-detail nav.product-detail-anchors ul{
-	direction: inherit;
-	height: 51px;
-	background-color: #eee;
-	border: 1px solid #ccc;
-}
-
-div.product-detail nav.product-detail-anchors ul li{
-	width: 122px;
-	display: block;
-	float: right;
-	direction: inherit;
-	list-style-type: none;
-	background-image: url('images/product_menu.jpg');
-	background-repeat: no-repeat;
-	background-position: -2px top;
-	margin-left: 1px;
-	height: 51px;
-}
-
-div.product-detail nav.product-detail-anchors ul li:hover{
-	background-position: -2px bottom;
-}
-
-div.product-detail nav.product-detail-anchors ul li.up{
-	width: 66px;
-	background-position: -126px top;
-}
-
-div.product-detail nav.product-detail-anchors ul li.up:hover{
-	width: 66px;
-	background-position: -126px bottom;
-}
-
-div.product-detail nav.product-detail-anchors ul li a{
-	display: block;
-	margin: 0 auto;
-	padding: 19px 16px;
-	font-family: inherit;
-	font-size: 12px;
-	font-weight: bold;
-	color: #666;
-	text-shadow: 0 1px white;
-	text-decoration: none;
-}
-
-div.product-detail nav.product-detail-anchors ul li:hover a{
-	color: #eee;
-	text-shadow: 0 1px #666;
-}
-
-div.product-detail nav.product-detail-anchors ul li.up a{
-	padding: 25px 16px;
-}
-
-div.product-detail div.product-body section.product-detail-sub-title{
-	min-height: 5px;
-	padding: 11px 51px;
-	background-image: url('images/product-detail-sub-title.png');
-	background-position: top;
-	background-repeat: no-repeat;
-}
-
-div.product-detail div.product-body section.product-detail-sub-title h2{
-	font-family: inherit;
-	font-size: inherit;
-	font-weight: bold;
-	color: #eee;
-	text-shadow: 0 1px #666;
-}
-
-div.product-detail div.product-body section.product-detail-text{
-	padding: 15px 0;
-	font-family: inherit;
-	font-size: inherit;
-	color: #666;
-	float: inherit;
-}
-
-div.product-detail div.product-body section.product-detail-text h2{
-	padding: 5px 15px;
-	margin-bottom: 10px;
-	font-family: inherit;
-	font-size: 11px;
-	font-weight: bold;
-	color: #555;
-	float: inherit;
-	background-image: url('images/h2.png');
-	background-position: right;
-	background-repeat: no-repeat;
-}
-
-div.product-detail div.product-body section.product-detail-text p{
-	padding: 5px 20px;
-	font-family: inherit;
-	font-size: inherit;
-	line-height: 1.5;
-	color: #666;
-	float: inherit;
-}
-
-div.product-detail div.product-body section.product-detail-text table.specification{
-	float: inherit;
-	direction: inherit;
-	text-align: center;
-	vertical-align: middle;
-	font-family: inherit;
-	font-size: inherit;
-	color: #666;
-	width: 688px;
-	outline: 1px solid #666;
-}
-
-div.product-detail div.product-body section.product-detail-text table.specification th{
-	padding: 5px 5px;
-	outline: 1px solid #666;
-	font-family: inherit;
-	font-size: inherit;
-	font-weight: bold;
-	color: #fff;
-	text-shadow: 0 1px #666;
-	background-color: #999;
-}
-
-div.product-detail div.product-body section.product-detail-text table.specification td{
-	padding: 5px 5px;
-	outline: 1px solid #666;
-}
 
 
 /***********************************BOXES***************************/
@@ -745,7 +614,7 @@ div.box ul{
 }
 
 div.box:hover ul{
-	height: 130px;
+	height: 190px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
