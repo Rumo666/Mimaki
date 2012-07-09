@@ -138,9 +138,11 @@ section.slider div.bottons{
 	padding-top:1px;
 	position: absolute;
 	top:296px;
+	background-color: 
 }
 
 section.slider div.bottons div.next{
+	float: left;
 	min-height:40px;
 	margin-top: 45px;
 	width:40px;
@@ -154,6 +156,7 @@ section.slider div.bottons div.next:hover{
 }
 
 section.slider div.bottons div.prv{
+	float: right;
 	min-height:40px;
 	margin-top: 45px;
 	width:40px;
