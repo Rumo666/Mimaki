@@ -1,0 +1,159 @@
+*{
+	/*outline: 1px dashed red;*/
+}
+
+.clear{
+	clear:both;
+	width: 0;
+	height: 0;
+	min-height: 0;
+	min-width: 0;
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-container{
+	margin: 0 auto;
+	direction: rtl;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.product-detail{
+	width: 688px;
+	min-height: 400px;
+	margin: 0 auto;
+	background-image: url('images/11.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+div.product-detail nav.product-detail-anchors ul{
+	direction: inherit;
+	height: 51px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+
+div.product-detail nav.product-detail-anchors ul li{
+	width: 122px;
+	display: block;
+	float: right;
+	direction: inherit;
+	list-style-type: none;
+	background-image: url('images/product_menu.jpg');
+	background-repeat: no-repeat;
+	background-position: -2px top;
+	margin-left: 1px;
+	height: 51px;
+}
+
+div.product-detail nav.product-detail-anchors ul li:hover{
+	background-position: -2px bottom;
+}
+
+div.product-detail nav.product-detail-anchors ul li.up{
+	width: 66px;
+	background-position: -126px top;
+}
+
+div.product-detail nav.product-detail-anchors ul li.up:hover{
+	width: 66px;
+	background-position: -126px bottom;
+}
+
+div.product-detail nav.product-detail-anchors ul li a{
+	display: block;
+	margin: 0 auto;
+	padding: 19px 16px;
+	font-family: inherit;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	text-shadow: 0 1px white;
+	text-decoration: none;
+}
+
+div.product-detail nav.product-detail-anchors ul li:hover a{
+	color: #eee;
+	text-shadow: 0 1px #666;
+}
+
+div.product-detail nav.product-detail-anchors ul li.up a{
+	padding: 25px 16px;
+}
+
+div.product-detail div.product-body section.product-detail-sub-title{
+	min-height: 5px;
+	padding: 11px 51px;
+	background-image: url('images/product-detail-sub-title.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+div.product-detail div.product-body section.product-detail-sub-title h2{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	color: #eee;
+	text-shadow: 0 1px #666;
+}
+
+div.product-detail div.product-body section.product-detail-text{
+	padding: 15px 0;
+	font-family: inherit;
+	font-size: inherit;
+	color: #666;
+	float: inherit;
+}
+
+div.product-detail div.product-body section.product-detail-text h2{
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	font-family: inherit;
+	font-size: 11px;
+	font-weight: bold;
+	color: #555;
+	float: inherit;
+	background-image: url('images/h2.png');
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+div.product-detail div.product-body section.product-detail-text p{
+	padding: 5px 20px;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.5;
+	color: #666;
+	float: inherit;
+}
+
+div.product-detail div.product-body section.product-detail-text table.specification{
+	float: inherit;
+	direction: inherit;
+	text-align: center;
+	vertical-align: middle;
+	font-family: inherit;
+	font-size: inherit;
+	color: #666;
+	width: 688px;
+	outline: 1px solid #666;
+}
+
+div.product-detail div.product-body section.product-detail-text table.specification th{
+	padding: 5px 5px;
+	outline: 1px solid #666;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 1px #666;
+	background-color: #999;
+}
+
+div.product-detail div.product-body section.product-detail-text table.specification td{
+	padding: 5px 5px;
+	outline: 1px solid #666;
+}
