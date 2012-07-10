@@ -423,6 +423,9 @@ form.contactfield select,input{
 	float: left;
 	margin:0px 3px;
 }
+form.contactfield input{
+	color:#222;
+}
 form.contactfield textarea{
 	width: 680px;
 }
@@ -723,14 +726,17 @@ div.products div.model{
 }
 
 div.products div.row div:hover div.model{
-	padding: 43px 68px;
+	width: 135px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 	opacity: 0.8;
 	-webkit-opacity: 0.8;
 	filter:alpha(opacity=8);
 }
 div.products div.model p{
-
-	background-color: #222;
+	display: block;
+	margin:0 auto;
+	background-color: black;
 	font-family: tahoma;
 	font-size:15px;
 	color: white;
