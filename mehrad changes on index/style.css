@@ -401,37 +401,48 @@ div.formheader{
 
 }
 form.contactfield{
-	min-height:500px;
-	width:680px;
-	
-}
-form.contactfield div.w4{
-	min-height:10px;
-	background-color: #c9c9c9;
-	outline:1px solid white;
-}
-form.contactfield div.ml4{
-	min-height:10px;
-
+	min-height:200px;
+	width:682px;
+	border:1px solid #d9d9d9;
 }
 
 form.contactfield div.name,div.state,div.category,div.address,div.country,div.question,div.contactinfo{
-	width:680px;
-	padding:5px 0px 5px 0px;
+	width:678px;
+	min-height:19px;
+	
+	background-color: #c9c9c9;
+	outline:1px solid white;
 }
+
+form.contactfield div.fields-name{
+	min-height:18px;
+	background-color: #c9c9c9;
+	width:160px;
+}
+form.contactfield div.fields{
+	min-height:18px;
+	margin-left: 160px;
+}
+
 form.contactfield select,input{
-	float: left;
+	
 	margin:0px 3px;
 }
+
 form.contactfield input{
 	color:#222;
 }
+
 form.contactfield textarea{
-	width: 680px;
+	width: 678px;
 }
-form.contactfield span{
+
+form.contactfield div.fields-name span{
 	margin-right:13px;
+	margin-left: 40px;
 	font-family:Tahoma;
+	font-weight: normal;
+	font-size: 13px;
 }
 
 /************************* ACC articles ***********************/
