@@ -1,3 +1,4 @@
+/********************************************************** common ********************************************************/
 *{
 	/*outline: 1px dashed red;*/
 }
@@ -20,6 +21,9 @@
 	font-size: 12px;
 }
 
+/********************************************************** end of common ********************************************************/
+/********************************************************** header => logo / search ********************************************************/
+
 .header-container{
 	margin: 0 auto;
 	direction: inherit;
@@ -38,6 +42,9 @@
 	min-height: 100px;
 }
 
+/********************************************************** end of header => logo / search ********************************************************/
+/********************************************************** menu  ********************************************************/
+
 .menu-container{
 	background-image: url('images/menu-bg.png');
 	background-position: top;
@@ -47,6 +54,59 @@
 	min-height: 43px;
 }
 
+.menu{
+	width: 950px;
+	margin: 0 auto;
+	direction: inherit;
+}
+
+nav.menu ul{
+	direction: inherit;
+	list-style-type: none;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;	
+	border-left: 1px solid #ccc;
+}
+
+nav.menu ul li{
+	float: right;
+	direction: inherit;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #ccc;
+}
+
+nav.menu ul li:hover{
+	background-image: url('images/menu-bg-hover.png');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+nav.menu ul li a{
+	display: block;
+	padding: 13px 30px;
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	text-shadow:0 1px #fff;
+	text-decoration: none;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
+
+nav.menu ul li:hover a{
+	color: #444;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
+
+/********************************************************** end of menu  ********************************************************/
+/********************************************************** slider => in index page only  ********************************************************/
+
 .slider-container{
 	background-image: url('images/slider-bg.png');
 	background-position: top;
@@ -55,32 +115,6 @@
 	margin: 0 auto;
 }
 
-.page-title-container{
-	background-image: url('images/page-title-bg.png');
-	background-position: top;
-	background-repeat: repeat-x;
-	direction: inherit;
-	margin: 0 auto;
-}
-
-section.page-title{
-	width: 890px;
-	margin: 0 auto;
-	min-height: 11px;
-	direction: inherit;
-	padding: 13px 30px;
-}
-
-section.page-title h2{
-	color: #eee;
-	text-shadow: 0 1px #555;
-	font-family: inherit;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: right;
-	line-height: 1.4;
-}
-/********* slider*********/
 section.slider{
 	width: 950px;
 	margin: 0 auto;
@@ -214,7 +248,38 @@ section.slider div.bottons ul.btns li.img4{
 section.slider div.bottons ul.btns li.img5{
 	background-image: url('images/1314185536e7dc68a5.JPG');
 }
-/************************************************************* main content **************************************************/
+
+/********************************************************** end of slider ********************************************************/
+/********************************************************** page title => in article pages only  ********************************************************/
+
+.page-title-container{
+	background-image: url('images/page-title-bg.png');
+	background-position: top;
+	background-repeat: repeat-x;
+	direction: inherit;
+	margin: 0 auto;
+}
+
+section.page-title{
+	width: 890px;
+	margin: 0 auto;
+	min-height: 11px;
+	direction: inherit;
+	padding: 13px 30px;
+}
+
+section.page-title h2{
+	color: #eee;
+	text-shadow: 0 1px #555;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 1.4;
+}
+
+/********************************************************** end of page title ********************************************************/
+/************************************************************* main content => sidebar + content **************************************************/
 
 .main-content-container{
 	margin: 0 auto;
@@ -222,14 +287,18 @@ section.slider div.bottons ul.btns li.img5{
 	min-height: 400px;
 }
 
-.sidebar-container{
-	float:right;
+.main-content{
+	width: 950px;
+	margin: 0 auto;
+	padding-top: 17px;
+	min-height: 400px;
 	direction: inherit;
-	width:240px;
-	min-height:422px;
 }
 
-aside.sidebar-container{
+/************************************************************* sidebar => in all pages **************************************************/
+
+.sidebar-container{
+	float:right;
 	direction: inherit;
 	min-height:200px;
 	width: 240px;
@@ -257,17 +326,48 @@ aside.sidebar-container li ul{
 	width:230px;
 	background-color: #eee;
 	overflow: hidden;
-	height: 0px;
+	height: 0;
 	margin: 0 5px 5px 5px;
-	-webkit-transition:all 600ms;	
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;	
 }
 
-aside.sidebar-container li ul div{
+aside.sidebar-container ul li.inkjet-container:hover ul{
+	height: 375px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+aside.sidebar-container ul li.cutting-container:hover ul{
+	height: 110px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+aside.sidebar-container ul li.modeling-container:hover ul{
+	height: 110px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+aside.sidebar-container ul li.software-container:hover ul{
+	height: 110px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+aside.sidebar-container li ul li div{
 	background-color: #fff;
-}
-
-aside.sidebar-container li:hover ul{
-	min-height: 200px;
 }
 
 aside.sidebar-container li li{
@@ -285,12 +385,12 @@ aside.sidebar-container li li a{
 	background-position: right 3px;
 }
 
-aside.sidebar-container li ul div span{
+aside.sidebar-container li ul li div span{
 	display: block;
 	padding:5px 10px;
 }
 
-aside.sidebar-container li ul div span a{
+aside.sidebar-container li ul li div span a{
 	padding:0 15px;
 	font-family: inherit;
 	font-size: 11px;
@@ -301,7 +401,7 @@ aside.sidebar-container li ul div span a{
 	background-position: right 3px;
 }
 
-aside.sidebar-container section{
+aside.sidebar-container li section{
 	background-repeat: no-repeat;
 	background-position: top;
 	min-height: 60px;
@@ -328,7 +428,7 @@ aside.sidebar-container section.software{
 	background-image: url('images/softwares.png');
 }
 
-aside.sidebar-container section:hover{
+aside.sidebar-container li:hover section{
 	opacity: 0.8;
 	-webkit-transition: all 600ms;
 	-ms-transition: all 600ms;
@@ -371,67 +471,12 @@ aside.sidebar-container div.sidebar-small-box div:hover{
 	-moz-transition: all 400ms;
 }
 
+/************************************************************* end of sidebar **************************************************/
+/************************************************************* content => in all pages **************************************************/
+
 .content{
 	margin-right:240px;
 	min-height:400px;
-}
-
-.menu{
-	width: 950px;
-	margin: 0 auto;
-	direction: inherit;
-}
-
-nav.menu ul{
-	direction: inherit;
-	list-style-type: none;
-	border-top: 1px solid #ccc;
-	border-right: 1px solid #ccc;	
-	border-left: 1px solid #ccc;
-}
-
-nav.menu ul li{
-	float: right;
-	direction: inherit;
-	border-right: 1px solid #fff;
-	border-left: 1px solid #ccc;
-}
-
-nav.menu ul li:hover{
-	background-image: url('images/menu-bg-hover.png');
-	background-repeat: repeat-x;
-	background-position: top;
-}
-
-nav.menu ul li a{
-	display: block;
-	padding: 13px 30px;
-	font-family: inherit;
-	font-size: 13px;
-	font-weight: bold;
-	color: #666;
-	text-shadow:0 1px #fff;
-	text-decoration: none;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
-}
-
-nav.menu ul li:hover a{
-	color: #444;
-	-webkit-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	-moz-transition: all 600ms;
-}
-
-.main-content{
-	width: 950px;
-	margin: 0 auto;
-	padding-top: 17px;
-	min-height: 400px;
-	direction: inherit;
 }
 
 .content-body{
@@ -439,23 +484,19 @@ nav.menu ul li:hover a{
 	padding: 0px 22px 15px 0px;
 }
 
-/******************* iframe ***********************/
+/************************************************************* iframe in content **************************************************/
 section.pickup{
 	min-height: 466px;
 }
 
-section.pickup iframe.index-iframe{
-	width: 688px;
-	min-height: 429px;
-}
-
-section.pickup iframe.article-holder-iframe{
+section.pickup iframe.article-holder-iframe{   /*in article pages (product models / ... ) */
 	width: 688px;
 	min-height: 2484px;
 }
 
-nav.pickup{
-
+section.pickup iframe.index-iframe{   /*in index page only (events / ... )*/
+	width: 688px;
+	min-height: 429px;
 }
 
 nav.pickup ul{
@@ -502,10 +543,9 @@ nav.pickup ul li a:hover{
 	background-position: bottom;
 }
 
-/******************* iframe end *******************/
+/************************************************************* end of iframe in content **************************************************/
+/************************************************************* Boxes in content **************************************************/
 
-
-/***********************************BOXES***************************/
 .content-boxes{
 	padding: 0px 15px 35px 0px;
 	direction: inherit;
@@ -616,13 +656,30 @@ div.box ul{
 	-moz-transition: all 400ms;
 }
 
-div.box:hover ul{
+div.box:hover ul.sg{
 	height: 190px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
 	-moz-transition: all 400ms;
 }
+
+div.box:hover ul.ip{
+	height: 100px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+div.box:hover ul.ta{
+	height: 100px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
 div.box ul li{
 	padding: 5px 0;
 	opacity: 0;
@@ -639,6 +696,12 @@ div.box:hover ul li{
 	-o-transition: all 400ms;
 	-moz-transition: all 400ms;
 }
+
+/************************************************************* end of Boxes in content **************************************************/
+/************************************************************* end of content **************************************************/
+/************************************************************* end of main content **************************************************/
+/************************************************************* footer **************************************************/
+/************************************************************* bottom navigation of site **************************************************/
 
 .navigation-container{
 	margin: 0 auto;
@@ -690,6 +753,9 @@ nav.navigation div.nav-items ul li:hover a{
 	-moz-transition: all 400ms;
 }
 
+/************************************************************* end of bottom navigation of site **************************************************/
+/************************************************************* copyright **************************************************/
+
 .copyright-container{
 	margin: 0 auto;
 }
@@ -731,3 +797,6 @@ footer.copyright section.copyright-text a:hover{
 	-o-transition: all 400ms;
 	-moz-transition: all 400ms;
 }
+
+/************************************************************* end of copyright **************************************************/
+/************************************************************* end of footer **************************************************/
