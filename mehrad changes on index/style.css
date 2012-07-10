@@ -401,35 +401,66 @@ div.formheader{
 
 }
 form.contactfield{
-	min-height:500px;
-	width:680px;
-	
-}
-form.contactfield div.w4{
-	min-height:10px;
-	background-color: #c9c9c9;
-	outline:1px solid white;
-}
-form.contactfield div.ml4{
-	min-height:10px;
-
+	min-height:200px;
+	width:679px;
+	border:2px solid #d9d9d9;
 }
 
 form.contactfield div.name,div.state,div.category,div.address,div.country,div.question,div.contactinfo{
 	width:680px;
-	padding:5px 0px 5px 0px;
+	min-height:21px;
 }
+div.question div.text-message{
+	width:680px;
+	min-height:18px;
+	background-color: #c9c9c9;
+}
+
+div.question div.text-message span{
+	text-transform: capitalize;
+	margin-left: 340px;
+	font-family:Tahoma;
+	font-weight: normal;
+	font-size: 11px;	
+}
+
+form.contactfield div.fields-name{
+	min-height:18px;
+	background-color: #c9c9c9;
+	width:120px;
+	text-align: center;
+	padding: 1px 0;
+}
+
+
+form.contactfield div.fields{
+	min-height:18px;
+	margin-left: 120px;
+	padding:1px 0;
+	border-bottom:1px solid #8e8e8e;
+}
+
+form.contactfield div.fields-name span{
+	text-transform: capitalize;
+	font-family:Tahoma;
+	font-weight: normal;
+	font-size: 11px;
+	color
+}
+
 form.contactfield select,input{
-	float: left;
+	
 	margin:0px 3px;
 }
+
+form.contactfield input{
+	color:#222;
+}
+
 form.contactfield textarea{
-	width: 680px;
+	width: 673px;
 }
-form.contactfield span{
-	margin-right:13px;
-	font-family:Tahoma;
-}
+
 
 /************************* ACC articles ***********************/
 
@@ -723,14 +754,17 @@ div.products div.model{
 }
 
 div.products div.row div:hover div.model{
-	padding: 43px 68px;
+	width: 135px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 	opacity: 0.8;
 	-webkit-opacity: 0.8;
 	filter:alpha(opacity=8);
 }
 div.products div.model p{
-
-	background-color: #222;
+	display: block;
+	margin:0 auto;
+	background-color: black;
 	font-family: tahoma;
 	font-size:15px;
 	color: white;
