@@ -1,6 +1,6 @@
 /********************************************************** common ********************************************************/
 *{
-	outline: 1px dashed red;
+	/*outline: 1px dashed red;*/
 }
 
 .clear{
@@ -279,7 +279,7 @@ section.page-title h2{
 }
 
 /********************************************************** end of page title ********************************************************/
-/************************************************************* main content => sidebar + content **************************************************/
+/********************************************************** main content => sidebar + content **************************************************/
 
 .main-content-container{
 	margin: 0 auto;
@@ -480,7 +480,6 @@ aside.sidebar-container div.sidebar-small-box div:hover{
 }
 
 .content-body{
-	min-height: 400px;
 	padding: 0px 22px 15px 0px;
 }
 
@@ -489,14 +488,9 @@ section.pickup{
 	min-height: 466px;
 }
 
-section.pickup iframe.article-holder-iframe{   /*in article pages (product models / ... ) */
-	width: 688px;
-	min-height: 2484px;
-}
-
 section.pickup iframe.index-iframe{   /*in index page only (events / ... )*/
 	width: 688px;
-	min-height: 429px;
+	min-height: 460px;
 }
 
 nav.pickup ul{
@@ -544,12 +538,80 @@ nav.pickup ul li a:hover{
 }
 
 /************************************************************* end of iframe in content **************************************************/
+/************************************************************* events in iframe *********************************************/
+
+.short-news{
+	width: 673px;
+	margin: 0 auto;
+	min-height: 429px;
+	direction: inherit;
+}
+
+div.short-news article{
+	direction: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	min-height: 75px;
+	border-bottom: 1px dashed #ccc;
+}
+
+div.short-news article div.short-news-pic{
+	width: 55px;
+	height: 55px;
+	float: right;
+	opacity: 0.8;
+	margin: 10px 5px;
+}
+
+div.short-news article:hover div.short-news-pic{
+	opacity: 1;
+}
+
+div.short-news article div.short-news-pic a{
+	display: block;
+}
+
+div.short-news article div.short-news-text{
+	margin-right: 75px;
+	padding: 10px 0 5px 5px;
+}
+
+div.short-news article div.short-news-text a{
+	text-decoration: none;
+	font-style: normal;
+}
+
+div.short-news article div.short-news-text h1{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #777;
+}
+
+div.short-news article:hover div.short-news-text h1{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #f00;
+}
+
+div.short-news article div.short-news-text p{
+	margin-bottom: 5px;
+	color: #888;
+	line-height: 1.5;
+}
+
+div.short-news article:hover div.short-news-text p{
+	color: #666;
+}
+
+/************************************************************* end of events in iframe *********************************************/
 /************************************************************* products page *********************************************/
 
 .products-list{
 	width: 671px;
-	min-height: 800px;
-	border: 1px solid #ccc;
 	margin: 0 auto;
 }
 
@@ -572,13 +634,14 @@ nav.pickup ul li a:hover{
 }
 
 .products-list section.category-details{
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
 }
 
 .products-list section.category-details section.sub-category{
 	float: right;
 	width: 320px;
 	margin: 15px 7px;
-	min-height: 500px;
 }
 
 .products-list section.category-details section.sub-category header h2{
@@ -588,9 +651,11 @@ nav.pickup ul li a:hover{
 	font-family: inherit;
 	font-size: inherit;
 	font-weight: bold;
+	direction: ltr;
+	text-align: left;
 }
 
-.products-list section.category-details section.sub-category section p{
+.products-list section.category-details section.sub-category section h3{
 	padding: 3px 5px;
 	text-align: inherit;
 	font-family: inherit;
@@ -602,8 +667,176 @@ nav.pickup ul li a:hover{
 	background-color: #eee;
 }
 
+.products-list section.category-details section.sub-category section ul{
+	display: block;
+	margin: 0 auto;
+}
 
-/************************************************************* end of products page **********************************************/
+.products-list section.category-details section.sub-category section ul li a{
+	float: right;
+	margin: 0 3px;
+	padding: 3px;
+	text-decoration: underline;
+	text-align: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	color: #00f;
+	line-height: 1;
+}
+
+.products-list section.category-details section.sub-category section ul li a:active{
+	color: #f00;
+}
+
+.products-list section.category-details section.sub-category section ul li a:visited{
+	color: #444;
+}
+
+.products-list section.category-details section.sub-category div img{
+	width: 237px;
+	height: 159px;
+	margin: 15px 40px;
+}
+
+
+/************************************************************* end of products list page **********************************************/
+/************************************************************* single product details **************************************************/
+
+.product-detail{
+	width: 673px;
+	min-height: 400px;
+	margin: 0 auto;
+}
+
+div.product-detail nav.product-detail-anchors ul{
+	direction: inherit;
+	height: 51px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+
+div.product-detail nav.product-detail-anchors ul li{
+	width: 119px;
+	display: block;
+	float: right;
+	direction: inherit;
+	list-style-type: none;
+	background-image: url('images/product_menu.jpg');
+	background-repeat: no-repeat;
+	background-position: -2px top;
+	margin-left: 1px;
+	height: 51px;
+}
+
+div.product-detail nav.product-detail-anchors ul li:hover{
+	background-position: -2px bottom;
+}
+
+div.product-detail nav.product-detail-anchors ul li.up{
+	width: 66px;
+	background-position: -126px top;
+}
+
+div.product-detail nav.product-detail-anchors ul li.up:hover{
+	width: 66px;
+	background-position: -126px bottom;
+}
+
+div.product-detail nav.product-detail-anchors ul li a{
+	display: block;
+	margin: 0 auto;
+	padding: 19px 20px;
+	font-family: inherit;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666;
+	text-shadow: 0 1px white;
+	text-decoration: none;
+}
+
+div.product-detail nav.product-detail-anchors ul li:hover a{
+	color: #eee;
+	text-shadow: 0 1px #666;
+}
+
+div.product-detail nav.product-detail-anchors ul li.up a{
+	padding: 25px 16px;
+}
+
+div.product-detail div.product-body section.product-detail-sub-title{
+	min-height: 5px;
+	padding: 11px 51px;
+	background-image: url('images/product-detail-sub-title.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+div.product-detail div.product-body section.product-detail-sub-title h2{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	color: #eee;
+	text-shadow: 0 1px #666;
+}
+
+div.product-detail div.product-body section.product-detail-text{
+	padding: 15px 0;
+	font-family: inherit;
+	font-size: inherit;
+	color: #666;
+	float: inherit;
+}
+
+div.product-detail div.product-body section.product-detail-text h2{
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	font-family: inherit;
+	font-size: 11px;
+	font-weight: bold;
+	color: #555;
+	float: inherit;
+	background-image: url('images/h2.png');
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+div.product-detail div.product-body section.product-detail-text p{
+	padding: 5px 20px;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.5;
+	color: #666;
+	float: inherit;
+}
+
+div.product-detail div.product-body section.product-detail-text table.specification{
+	float: inherit;
+	direction: inherit;
+	text-align: center;
+	vertical-align: middle;
+	font-family: inherit;
+	font-size: inherit;
+	color: #666;
+	width: 672px;
+	outline: 1px solid #666;
+}
+
+div.product-detail div.product-body section.product-detail-text table.specification th{
+	padding: 5px 5px;
+	outline: 1px solid #666;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 1px #666;
+	background-color: #999;
+}
+
+div.product-detail div.product-body section.product-detail-text table.specification td{
+	padding: 5px 5px;
+	outline: 1px solid #666;
+}
+/************************************************************* end of single product details **************************************************/
 /************************************************************* Boxes in content **************************************************/
 
 .content-boxes{
