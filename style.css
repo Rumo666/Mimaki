@@ -1,6 +1,6 @@
 /********************************************************** common ********************************************************/
 *{
-	/*outline: 1px dashed red;*/
+	outline: 1px dashed red;
 }
 
 .clear{
@@ -544,6 +544,66 @@ nav.pickup ul li a:hover{
 }
 
 /************************************************************* end of iframe in content **************************************************/
+/************************************************************* products page *********************************************/
+
+.products-list{
+	width: 671px;
+	min-height: 800px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+
+.products-list header.category-header{
+	min-height: 44px;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.products-list header.category-inkjet-header{
+	background-image: url('images/products-inkjets.png');
+}
+
+.products-list header.category-cutting-header{
+	background-image: url('images/products-cutting.png');	
+}
+
+.products-list header.category-modeling-header{
+	background-image: url('images/products-modeling.png');	
+}
+
+.products-list section.category-details{
+}
+
+.products-list section.category-details section.sub-category{
+	float: right;
+	width: 320px;
+	margin: 15px 7px;
+	min-height: 500px;
+}
+
+.products-list section.category-details section.sub-category header h2{
+	background-color: #CCC;
+	min-height: 17px;
+	padding: 5px 10px;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+}
+
+.products-list section.category-details section.sub-category section p{
+	padding: 3px 5px;
+	text-align: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.5;
+}
+
+.products-list section.category-details section.sub-category{
+	background-color: #eee;
+}
+
+
+/************************************************************* end of products page **********************************************/
 /************************************************************* Boxes in content **************************************************/
 
 .content-boxes{
