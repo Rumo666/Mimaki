@@ -634,6 +634,8 @@ div.short-news article:hover div.short-news-text p{
 }
 
 .products-list section.category-details{
+	padding-top: 1px;
+	float: none;
 	border: 1px solid #ccc;
 	margin-bottom: 10px;
 }
@@ -837,8 +839,107 @@ div.product-detail div.product-body section.product-detail-text table.specificat
 	outline: 1px solid #666;
 }
 /************************************************************* end of single product details **************************************************/
-/************************************************************* Boxes in content **************************************************/
+/************************************************************* contact us page **************************************************/
+section.contact{
+	min-height: 400px;
+	float: inherit;
+	direction: inherit;
+}
 
+div.formheader{
+	width: 688px;
+	min-height: 33px;
+	float: inherit;
+	direction: inherit;
+	margin-bottom: 10px;
+}
+
+form.contactfield{
+	float: inherit;
+	direction: inherit;
+	width:686px;
+}
+
+form.contactfield div.fields-name{
+	background-color: #777;
+	
+	float: right;
+	width:100px;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+	color: #eee;
+	margin-bottom: 3px 0;
+}
+
+form.contactfield div.fields-name h3{
+	padding: 6px;
+	display: block;
+	font-family: inherit;
+	font-size: inherit;
+	color: #eee;
+}
+
+form.contactfield div.state,div.subject,div.address,div.neme,div.tell,div.contact-info{
+	min-height:25px;
+	margin: 5px 0;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+div.question{
+	width: 686px;
+}
+
+div.question div.text-message{
+	width: 686px;
+	min-height: 18px;
+	background-color: #aaa;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+form.contactfield div.fields{
+	margin-right: 110px;
+	margin-bottom: 5px;
+	border-bottom:1px dashed #777;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+form.contactfield select{
+	margin: 3px;
+	color:#555;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+form.contactfield input{
+	margin: 3px;
+	color:#555;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+form.contactfield textarea{
+	width: 680px;
+	min-height: 150px;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.5;
+	color:#555;
+}
+
+div.submit{
+	margin: 0 165px;
+}
+
+div.submit input{
+	width: 170px;
+	min-height: 35px;
+}
+/************************************************************* end of contact us page **************************************************/
+/************************************************************* Boxes in content **************************************************/
 .content-boxes{
 	padding: 0px 15px 35px 0px;
 	direction: inherit;
