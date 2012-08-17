@@ -40,11 +40,19 @@
 		overflow:visible;
 	}
 
-	body {
+	.body {
 		font-size:100.01%; /* Fix for rounding errors when scaling font sizes in older versions of Opera browser */
 		background:#fff;
 		color:#000;
 		text-align:right; /* RTL */
+		line-height: 1;
+	}
+	
+	.ltr-body {
+		font-size:100.01%; /* Fix for rounding errors when scaling font sizes in older versions of Opera browser */
+		background:#fff;
+		color:#000;
+		text-align:left; /* LTR */
 		line-height: 1;
 	}
 
