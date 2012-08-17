@@ -21,6 +21,13 @@
 	font-size: 12px;
 }
 
+.ltr-main-container{
+	margin: 0 auto;
+	direction: ltr;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
 /********************************************************** end of common ********************************************************/
 /********************************************************** header => logo / search ********************************************************/
 
@@ -42,6 +49,12 @@
 	min-height: 100px;
 }
 
+.rtl-logo a{
+	display: block;
+	margin-right: 459px;
+	min-height: 100px;
+}
+
 /********************************************************** end of header => logo / search ********************************************************/
 /********************************************************** menu  ********************************************************/
 
@@ -50,6 +63,15 @@
 	background-position: top;
 	background-repeat: repeat-x;
 	direction: inherit;
+	margin: 0 auto;
+	min-height: 43px;
+}
+
+.ltr-menu-container{
+	background-image: url('images/menu-bg.png');
+	background-position: top;
+	background-repeat: repeat-x;
+	direction: ltr;
 	margin: 0 auto;
 	min-height: 43px;
 }
@@ -75,15 +97,37 @@ nav.menu ul li{
 	border-left: 1px solid #ccc;
 }
 
+nav.ltr-menu ul li{
+	float: right;
+	direction: inherit;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #ccc;
+}
+
 nav.menu ul li:hover{
 	background-image: url('images/menu-bg-hover.png');
 	background-repeat: repeat-x;
 	background-position: top;
 }
 
-nav.menu ul li a{
+div.menu-container nav.menu ul li a{
 	display: block;
 	padding: 13px 30px;
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	text-shadow:0 1px #fff;
+	text-decoration: none;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
+
+div.ltr-menu-container nav.menu ul li a{
+	display: block;
+	padding: 13px 40px;
 	font-family: inherit;
 	font-size: 13px;
 	font-weight: bold;
@@ -171,8 +215,7 @@ section.slider div.bottons{
 	margin: 0 auto;
 	padding-top:1px;
 	position: absolute;
-	top:296px;
-	background-color: 
+	top:296px; 
 }
 
 section.slider div.bottons div.next{
