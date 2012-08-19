@@ -304,6 +304,14 @@ section.page-title{
 	padding: 13px 30px;
 }
 
+section.ltr-page-title{
+	width: 890px;
+	margin: 0 auto;
+	min-height: 11px;
+	direction: inherit;
+	padding: 13px 30px;
+}
+
 section.page-title h2{
 	color: #eee;
 	text-shadow: 0 1px #555;
@@ -311,6 +319,16 @@ section.page-title h2{
 	font-size: 14px;
 	font-weight: bold;
 	text-align: right;
+	line-height: 1.4;
+}
+
+section.ltr-page-title h2{
+	color: #eee;
+	text-shadow: 0 1px #555;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
 	line-height: 1.4;
 }
 
