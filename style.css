@@ -558,7 +558,7 @@ aside.ltr-sidebar-container li li a{
 	font-size: inherit;
 	text-decoration: none;
 	color: #555;
-	background-image: url('images/arrow.png');
+	background-image: url('images/ltr-arrow.png');
 	background-repeat: no-repeat;
 	background-position: left 3px;
 }
@@ -590,7 +590,7 @@ aside.ltr-sidebar-container li ul li div span a{
 	font-size: 11px;
 	text-decoration: none;
 	color: #777;
-	background-image: url('images/sub-arrow.png');
+	background-image: url('images/ltr-sub-arrow.png');
 	background-repeat: no-repeat;
 	background-position: left 3px;
 }
@@ -1448,7 +1448,7 @@ div.ltr-box ul div span a{
 	font-family: inherit;
 	font-size: inherit;
 	text-decoration: none;
-	background-image: url('images/sub-arrow.png');
+	background-image: url('images/ltr-sub-arrow.png');
 	background-repeat: no-repeat;
 	background-position: left;
 	color: #555;
