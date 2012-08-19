@@ -82,7 +82,21 @@
 	direction: inherit;
 }
 
+.ltr-menu{
+	width: 950px;
+	margin: 0 auto;
+	direction: inherit;
+}
+
 nav.menu ul{
+	direction: inherit;
+	list-style-type: none;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;	
+	border-left: 1px solid #ccc;
+}
+
+nav.ltr-menu ul{
 	direction: inherit;
 	list-style-type: none;
 	border-top: 1px solid #ccc;
@@ -97,7 +111,20 @@ nav.menu ul li{
 	border-left: 1px solid #ccc;
 }
 
+nav.ltr-menu ul li{
+	float: left;
+	direction: inherit;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #ccc;
+}
+
 nav.menu ul li:hover{
+	background-image: url('images/menu-bg-hover.png');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+nav.ltr-menu ul li:hover{
 	background-image: url('images/menu-bg-hover.png');
 	background-repeat: repeat-x;
 	background-position: top;
@@ -118,7 +145,7 @@ div.menu-container nav.menu ul li a{
 	-moz-transition: all 600ms;
 }
 
-div.ltr-menu-container nav.menu ul li a{
+div.ltr-menu-container nav.ltr-menu ul li a{
 	display: block;
 	padding: 13px 40px;
 	font-family: inherit;
@@ -134,6 +161,14 @@ div.ltr-menu-container nav.menu ul li a{
 }
 
 nav.menu ul li:hover a{
+	color: #444;
+	-webkit-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	-moz-transition: all 600ms;
+}
+
+nav.ltr-menu ul li:hover a{
 	color: #444;
 	-webkit-transition: all 600ms;
 	-ms-transition: all 600ms;
@@ -863,12 +898,24 @@ div.short-news article:hover div.short-news-text p{
 	background-image: url('images/products-inkjets.png');
 }
 
+.ltr-products-list header.category-inkjet-header{
+	background-image: url('images/ltr-products-inkjets.png');
+}
+
 .products-list header.category-cutting-header{
 	background-image: url('images/products-cutting.png');	
 }
 
+.ltr-products-list header.category-cutting-header{
+	background-image: url('images/ltr-products-cutting.png');	
+}
+
 .products-list header.category-modeling-header{
 	background-image: url('images/products-modeling.png');	
+}
+
+.ltr-products-list header.category-modeling-header{
+	background-image: url('images/ltr-products-modeling.png');	
 }
 
 .products-list section.category-details{
@@ -884,8 +931,20 @@ div.short-news article:hover div.short-news-text p{
 	margin: 15px 7px;
 }
 
+.ltr-products-list section.category-details section.sub-category{
+	float: left;
+	width: 320px;
+	margin: 15px 7px;
+}
+
 .products-list section.category-details section.downloads{
 	float: right;
+	width: 655px;
+	margin: 15px 7px;
+}
+
+.ltr-products-list section.category-details section.downloads{
+	float: left;
 	width: 655px;
 	margin: 15px 7px;
 }
@@ -925,12 +984,28 @@ div.short-news article:hover div.short-news-text p{
 	width: 130px;
 }
 
+.ltr-products-list section.category-details section.sub-category section ul li ul li{
+	display: block;
+	margin: 0 auto;
+	float: left;
+	width: 130px;
+}
+
 .products-list section.category-details section.sub-category section ul li ul li{
 	display: block;
 	margin: 0 auto;
 	text-align: center;
 	padding: 10px 5px;
 	float: right;
+	width: 121px;
+}
+
+.ltr-products-list section.category-details section.sub-category section ul li ul li{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 5px;
+	float: left;
 	width: 121px;
 }
 
@@ -943,6 +1018,18 @@ div.short-news article:hover div.short-news-text p{
 
 .products-list section.category-details section.sub-category section ul li a{
 	float: right;
+	margin: 0 3px;
+	padding: 3px;
+	text-decoration: underline;
+	text-align: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	color: #00f;
+	line-height: 1;
+}
+
+.ltr-products-list section.category-details section.sub-category section ul li a{
+	float: left;
 	margin: 0 3px;
 	padding: 3px;
 	text-decoration: underline;
@@ -979,7 +1066,6 @@ div.short-news article:hover div.short-news-text p{
 	margin: 15px 40px;
 }
 
-
 /************************************************************* end of products list page **********************************************/
 /************************************************************* single product details **************************************************/
 
@@ -1004,6 +1090,20 @@ div.product-detail nav.product-detail-anchors ul li{
 	text-align: center;
 	list-style-type: none;
 	background-image: url('images/product_menu.jpg');
+	background-repeat: no-repeat;
+	background-position: -2px top;
+	margin-left: 1px;
+	height: 51px;
+}
+
+div.ltr-product-detail nav.product-detail-anchors ul li{
+	width: 119px;
+	display: block;
+	float: left;
+	direction: inherit;
+	text-align: center;
+	list-style-type: none;
+	background-image: url('images/ltr-product_menu.jpg');
 	background-repeat: no-repeat;
 	background-position: -2px top;
 	margin-left: 1px;
@@ -1053,6 +1153,14 @@ div.product-detail div.product-body section.product-detail-sub-title{
 	background-repeat: no-repeat;
 }
 
+div.ltr-product-detail div.product-body section.product-detail-sub-title{
+	min-height: 5px;
+	padding: 11px 51px;
+	background-image: url('images/ltr-product-detail-sub-title.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
 div.product-detail div.product-body section.product-detail-sub-title h2{
 	font-family: inherit;
 	font-size: inherit;
@@ -1079,6 +1187,19 @@ div.product-detail div.product-body section.product-detail-text h2{
 	float: inherit;
 	background-image: url('images/h2.png');
 	background-position: right;
+	background-repeat: no-repeat;
+}
+
+div.ltr-product-detail div.product-body section.product-detail-text h2{
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	font-family: inherit;
+	font-size: 11px;
+	font-weight: bold;
+	color: #555;
+	float: inherit;
+	background-image: url('images/h2.png');
+	background-position: left;
 	background-repeat: no-repeat;
 }
 
@@ -1222,6 +1343,13 @@ div.submit input{
 /************************************************************* Boxes in content **************************************************/
 .content-boxes{
 	padding: 0px 15px 35px 0px;
+	direction: inherit;
+	min-height: 103px;
+	direction: inherit;
+}
+
+.ltr-content-boxes{
+	padding: 0px 0px 35px 15px;
 	direction: inherit;
 	min-height: 103px;
 	direction: inherit;
