@@ -622,7 +622,7 @@ aside.sidebar-container section.inkjet{
 }
 
 aside.ltr-sidebar-container section.inkjet{
-	background-image: url('images/inkjets.png');
+	background-image: url('images/ltr-inkjets.png');
 }
 
 aside.sidebar-container section.cutting{
@@ -630,15 +630,15 @@ aside.sidebar-container section.cutting{
 }
 
 aside.ltr-sidebar-container section.cutting{
-	background-image: url('images/cutting-plotters.png');
+	background-image: url('images/ltr-cutting-plotters.png');
 }
 
 aside.sidebar-container section.modeling{
-	background-image: url('images/modeling-plotters.png');
+	background-image: url('images/ink-media.png');
 }
 
 aside.ltr-sidebar-container section.modeling{
-	background-image: url('images/modeling-plotters.png');
+	background-image: url('images/ltr-ink-media.png');
 }
 
 aside.sidebar-container section.software{
@@ -646,7 +646,7 @@ aside.sidebar-container section.software{
 }
 
 aside.ltr-sidebar-container section.software{
-	background-image: url('images/softwares.png');
+	background-image: url('images/ltr-softwares.png');
 }
 
 aside.sidebar-container li:hover section{
@@ -777,6 +777,12 @@ nav.pickup ul li{
 	float: right;
 }
 
+nav.ltr-pickup ul li{
+	margin-left: 2px;
+	float: left;
+}
+
+
 nav.pickup ul li a{
 	text-decoration: none;
 	color: white;
@@ -794,19 +800,39 @@ nav.pickup ul li a.pickup{
 	background-image: url('images/exhibition.png');
 }
 
+nav.ltr-pickup ul li a.ltr-pickup{
+	background-image: url('images/ltr-exhibition.png');
+}
+
 nav.pickup ul li a.product{
 	background-image: url('images/FAQ.png');
 }
 
-nav.pickup ul li a.news{
-	background-image: url('images/manual.png');
+nav.ltr-pickup ul li a.ltr-product{
+	background-image: url('images/ltr-FAQ.png');
 }
 
 nav.pickup ul li a.event{
 	background-image: url('images/movie.png');
 }
 
+nav.ltr-pickup ul li a.ltr-event{
+	background-image: url('images/ltr-movie.png');
+}
+
+nav.pickup ul li a.news{
+	background-image: url('images/manual.png');
+}
+
+nav.ltr-pickup ul li a.ltr-news{
+	background-image: url('images/ltr-manual.png');
+}
+
 nav.pickup ul li a:hover{
+	background-position: bottom;
+}
+
+nav.ltr-pickup ul li a:hover{
 	background-position: bottom;
 }
 
@@ -1396,7 +1422,7 @@ div.box ul li{
 }
 
 div.ltr-box ul li{
-	background-image: url('images/arrow.png');
+	background-image: url('images/ltr-arrow.png');
 	background-repeat: no-repeat;
 	background-position: left 8px;
 	border-bottom: 1px dashed #888;
@@ -1468,7 +1494,7 @@ div.box section.sign-graphic{
 
 div.ltr-box section.sign-graphic{
 	min-height: 103px;
-	background-image: url('images/box1.png');
+	background-image: url('images/ltr-box1.png');
 	background-position: top;
 	background-repeat: no-repeat;
 	opacity: 1;
@@ -1492,7 +1518,7 @@ div.box section.industrial-products{
 
 div.ltr-box section.industrial-products{
 	min-height: 103px;
-	background-image: url('images/box2.png');
+	background-image: url('images/ltr-box2.png');
 	background-position: top;
 	background-repeat: no-repeat;
 	opacity: 1;
@@ -1516,7 +1542,7 @@ div.box section.textile-apparel{
 
 div.ltr-box section.textile-apparel{
 	min-height: 103px;
-	background-image: url('images/box3.png');
+	background-image: url('images/ltr-box3.png');
 	background-position: top;
 	background-repeat: no-repeat;
 	opacity: 1;
