@@ -132,9 +132,9 @@ nav.ltr-menu ul li:hover{
 
 div.menu-container nav.menu ul li a{
 	display: block;
-	padding: 13px 30px;
+	padding: 13px 31px;
 	font-family: inherit;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bold;
 	color: #666;
 	text-shadow:0 1px #fff;
@@ -147,9 +147,9 @@ div.menu-container nav.menu ul li a{
 
 div.ltr-menu-container nav.ltr-menu ul li a{
 	display: block;
-	padding: 13px 40px;
+	padding: 13px 41px;
 	font-family: inherit;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bold;
 	color: #666;
 	text-shadow:0 1px #fff;
@@ -1115,21 +1115,7 @@ div.product-detail nav.product-detail-anchors ul li{
 	direction: inherit;
 	text-align: center;
 	list-style-type: none;
-	background-image: url('images/product_menu.jpg');
-	background-repeat: no-repeat;
-	background-position: -2px top;
-	margin-left: 1px;
-	height: 51px;
-}
-
-div.ltr-product-detail nav.product-detail-anchors ul li{
-	width: 119px;
-	display: block;
-	float: left;
-	direction: inherit;
-	text-align: center;
-	list-style-type: none;
-	background-image: url('images/ltr-product_menu.jpg');
+	background-image: url('images/product-menu.png');
 	background-repeat: no-repeat;
 	background-position: -2px top;
 	margin-left: 1px;
@@ -1281,15 +1267,14 @@ div.formheader{
 	margin-bottom: 10px;
 }
 
-form.contactfield{
+form.contact-field{
 	float: inherit;
 	direction: inherit;
 	width:686px;
 }
 
-form.contactfield div.fields-name{
+form.contact-field div.fields-name{
 	background-color: #777;
-	
 	float: right;
 	width:100px;
 	font-family: inherit;
@@ -1299,7 +1284,18 @@ form.contactfield div.fields-name{
 	margin-bottom: 3px 0;
 }
 
-form.contactfield div.fields-name h3{
+form.ltr-contact-field div.fields-name{
+	background-color: #777;
+	float: left;
+	width:100px;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+	color: #eee;
+	margin-bottom: 3px 0;
+}
+
+form.contact-field div.fields-name h3{
 	padding: 6px;
 	display: block;
 	font-family: inherit;
@@ -1307,7 +1303,7 @@ form.contactfield div.fields-name h3{
 	color: #eee;
 }
 
-form.contactfield div.state,div.subject,div.address,div.neme,div.tell,div.contact-info{
+form.contact-field div.state,div.subject,div.address,div.neme,div.tell,div.contact-info{
 	min-height:25px;
 	margin: 5px 0;
 	font-family: inherit;
@@ -1326,7 +1322,7 @@ div.question div.text-message{
 	font-size: inherit;
 }
 
-form.contactfield div.fields{
+form.contact-field div.fields{
 	margin-right: 110px;
 	margin-bottom: 5px;
 	border-bottom:1px dashed #777;
@@ -1334,21 +1330,29 @@ form.contactfield div.fields{
 	font-size: inherit;
 }
 
-form.contactfield select{
+form.ltr-contact-field div.fields{
+	margin-left: 110px;
+	margin-bottom: 5px;
+	border-bottom:1px dashed #777;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+form.contact-field select{
 	margin: 3px;
 	color:#555;
 	font-family: inherit;
 	font-size: inherit;
 }
 
-form.contactfield input{
+form.contact-field input{
 	margin: 3px;
 	color:#555;
 	font-family: inherit;
 	font-size: inherit;
 }
 
-form.contactfield textarea{
+form.contact-field textarea{
 	width: 680px;
 	min-height: 150px;
 	font-family: inherit;
