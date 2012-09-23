@@ -39,22 +39,78 @@
 .header{
 	width: 950px;
 	margin: 0 auto;
+	padding-top: 1px;
 	min-height: 100px;
 	direction: inherit;
 }
 
+.logo{
+	float:right;
+	width: 491px;
+	height: 100px;
+}
+
 .logo a{
 	display: block;
-	margin-left: 459px;
+	width: 491px;
 	min-height: 100px;
+}
+
+.ltr-logo{
+	float: left;
+	width: 491px;
+	height: 100px;
 }
 
 .ltr-logo a{
 	display: block;
-	margin-right: 459px;
+	width: 491px;
 	min-height: 100px;
 }
 
+.english{
+	margin: 62px 549px 0 294px;
+}
+
+.persian{
+	margin: 62px 294px 0 549px;
+}
+
+.english a{
+	display: block;
+	width: 106px;
+	height: 28px;
+	background-image: url('images/english.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.english a:hover{
+	display: block;
+	width: 106px;
+	height: 28px;
+	background-image: url('images/english.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.persian a{
+	display: block;
+	width: 106px;
+	height: 28px;
+	background-image: url('images/persian.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.persian a:hover{
+	display: block;
+	width: 106px;
+	height: 28px;
+	background-image: url('images/persian.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
 /********************************************************** end of header => logo / search ********************************************************/
 /********************************************************** menu  ********************************************************/
 
@@ -219,23 +275,23 @@ section.slider div.scroll div{
 }
 
 section.slider div.scroll > div.adv1{
-	background-image:url(images/132746088563c2de1d.JPG);
+	background-image:url(images/ds-slide.JPG);
 }
 
 section.slider div.scroll > div.adv2{
-	background-image:url(images/13274608779cd0af20.JPG);
+	background-image:url(images/jv33-slide.JPG);
 }
 
 section.slider div.scroll > div.adv3{
-	background-image:url(images/13329970497e58993a.JPG);
+	background-image:url(images/cjv30-slide.JPG);
 }
 
 section.slider div.scroll > div.adv4{
-	background-image:url(images/1329301246a476aad2.JPG);
+	background-image:url(images/cg60-slide.JPG);
 }
 
 section.slider div.scroll > div.adv5{
-	background-image:url(images/1329273262dca1c3ea.JPG);
+	background-image:url(images/ds-slide.JPG);
 }
 
 section.slider div.bottons{
@@ -301,23 +357,23 @@ section.slider div.bottons ul.btns li:hover{
 }
 
 section.slider div.bottons ul.btns li.img1{
-	background-image: url('images/13329998544218bd7e.JPG');
+	background-image: url('images/ds-series-slider.JPG');
 }
 
 section.slider div.bottons ul.btns li.img2{
-	background-image: url('images/132919621334df53ce.JPG');
+	background-image: url('images/jv33-160-slider.JPG');
 }
 
 section.slider div.bottons ul.btns li.img3{
-	background-image: url('images/13291961521ef30c82.JPG');
+	background-image: url('images/cjv30-series-slider.JPG');
 }
 
 section.slider div.bottons ul.btns li.img4{
-	background-image: url('images/1314185598f1795cfd.JPG');
+	background-image: url('images/cg60-sl-slider.JPG');
 }
 
 section.slider div.bottons ul.btns li.img5{
-	background-image: url('images/1314185536e7dc68a5.JPG');
+	background-image: url('images/ds-series-slider.JPG');
 }
 
 /********************************************************** end of slider ********************************************************/
@@ -462,7 +518,7 @@ aside.ltr-sidebar-container li ul{
 }
 
 aside.sidebar-container ul li.inkjet-container:hover ul{
-	height: 375px;
+	height: 225px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -470,7 +526,7 @@ aside.sidebar-container ul li.inkjet-container:hover ul{
 }
 
 aside.ltr-sidebar-container ul li.inkjet-container:hover ul{
-	height: 375px;
+	height: 225px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -478,7 +534,7 @@ aside.ltr-sidebar-container ul li.inkjet-container:hover ul{
 }
 
 aside.sidebar-container ul li.cutting-container:hover ul{
-	height: 110px;
+	height: 93px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -486,7 +542,7 @@ aside.sidebar-container ul li.cutting-container:hover ul{
 }
 
 aside.ltr-sidebar-container ul li.cutting-container:hover ul{
-	height: 110px;
+	height: 93px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -494,7 +550,7 @@ aside.ltr-sidebar-container ul li.cutting-container:hover ul{
 }
 
 aside.sidebar-container ul li.modeling-container:hover ul{
-	height: 110px;
+	height: 35px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -502,7 +558,7 @@ aside.sidebar-container ul li.modeling-container:hover ul{
 }
 
 aside.ltr-sidebar-container ul li.modeling-container:hover ul{
-	height: 110px;
+	height: 35px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -667,7 +723,7 @@ aside.ltr-sidebar-container li:hover section{
 
 aside.sidebar-container div.sidebar-small-box div{
 	min-height: 70px;
-	opacity: 0.6;
+	opacity: 1;
 	background-repeat: no-repeat;
 	background-position: top;
 	-webkit-transition: all 400ms;
@@ -678,7 +734,7 @@ aside.sidebar-container div.sidebar-small-box div{
 
 aside.ltr-sidebar-container div.sidebar-small-box div{
 	min-height: 70px;
-	opacity: 0.6;
+	opacity: 1;
 	background-repeat: no-repeat;
 	background-position: top;
 	-webkit-transition: all 400ms;
@@ -720,7 +776,7 @@ aside.ltr-sidebar-container div.sidebar-small-box div.small-box-2{
 }
 
 aside.sidebar-container div.sidebar-small-box div:hover{
-	opacity: 1;
+	opacity: 0.6;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -728,7 +784,7 @@ aside.sidebar-container div.sidebar-small-box div:hover{
 }
 
 aside.ltr-sidebar-container div.sidebar-small-box div:hover{
-	opacity: 1;
+	opacity: 0.6;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -1593,7 +1649,7 @@ div.ltr-box ul{
 }
 
 div.box:hover ul.sg{
-	height: 190px;
+	height: 150px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -1601,7 +1657,7 @@ div.box:hover ul.sg{
 }
 
 div.ltr-box:hover ul.sg{
-	height: 190px;
+	height: 150px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -1609,7 +1665,7 @@ div.ltr-box:hover ul.sg{
 }
 
 div.box:hover ul.ip{
-	height: 100px;
+	height: 35px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -1617,7 +1673,7 @@ div.box:hover ul.ip{
 }
 
 div.ltr-box:hover ul.ip{
-	height: 100px;
+	height: 35px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -1625,7 +1681,7 @@ div.ltr-box:hover ul.ip{
 }
 
 div.box:hover ul.ta{
-	height: 100px;
+	height: 55px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
@@ -1633,7 +1689,7 @@ div.box:hover ul.ta{
 }
 
 div.ltr-box:hover ul.ta{
-	height: 100px;
+	height: 55px;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
